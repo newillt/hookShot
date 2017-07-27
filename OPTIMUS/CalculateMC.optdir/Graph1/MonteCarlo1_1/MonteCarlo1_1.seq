@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<OPTIMUS>
+
+  <FACTORS>
+    <FACTOR gid="Input1" name="Input1" range="LOW/HIGH" type="REAL">
+      <nominal>0</nominal>
+      <tol>1e-006</tol>
+    </FACTOR>
+    <FACTOR gid="Thabo Sefolosha" name="Thabo Sefolosha" range="LOW/HIGH" type="REAL">
+      <nominal>17.59</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>2.01666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Damian Lillard" name="Damian Lillard" range="LOW/HIGH" type="REAL">
+      <nominal>40.93</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>5.6</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Will Barton" name="Will Barton" range="LOW/HIGH" type="REAL">
+      <nominal>26.36</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>5.91666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Andrew Bogut" name="Andrew Bogut" range="LOW/HIGH" type="REAL">
+      <nominal>22.16</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.56666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Stephen Curry" name="Stephen Curry" range="LOW/HIGH" type="REAL">
+      <nominal>49.24</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>7.26666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Jae Crowder" name="Jae Crowder" range="LOW/HIGH" type="REAL">
+      <nominal>24.73</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.93333333333</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Dwight Powell" name="Dwight Powell" range="LOW/HIGH" type="REAL">
+      <nominal>22.89</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>2.6</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="C.J. McCollum" name="C.J. McCollum" range="LOW/HIGH" type="REAL">
+      <nominal>29.64</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.41666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Blake Griffin" name="Blake Griffin" range="LOW/HIGH" type="REAL">
+      <nominal>42.1</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.81666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+  </FACTORS>
+
+  <RESPONSES>
+    <RESPONSE gid="Output1" name="Output1">
+      <defv>0</defv>
+      <taf>1</taf>
+    </RESPONSE>
+  </RESPONSES>
+
+  <REUSE>MonteCarlo1_1.append</REUSE>
+
+  <DEPENDENCIES>
+    <DEPENDENCY>
+      <var>Input1</var>
+      <var>Thabo Sefolosha</var>
+      <var>Damian Lillard</var>
+      <var>Will Barton</var>
+      <var>Andrew Bogut</var>
+      <var>Stephen Curry</var>
+      <var>Jae Crowder</var>
+      <var>Dwight Powell</var>
+      <var>C.J. McCollum</var>
+      <var>Blake Griffin</var>
+      <depvar>Output1</depvar>
+    </DEPENDENCY>
+  </DEPENDENCIES>
+
+  <EXPERIMENT type="MONTE-CARLO">
+    <numpoints>5000</numpoints>
+    <seed>25</seed>
+    <uselatinhypercube>0</uselatinhypercube>
+  </EXPERIMENT>
+
+  <SEQUENCE>
+    <PRE-COMMANDS/>
+    <COMMANDS>
+      <NEEDED_FOR>
+        <var>Output1</var>
+      </NEEDED_FOR>
+      <LET gid="Output1">
+        <var>Output1</var>
+        <expression>$Thabo Sefolosha$+$Damian Lillard$+$Will Barton$+$Andrew Bogut$+$Stephen Curry$+$Jae Crowder$+$Dwight Powell$+$C.J. McCollum$+$Blake Griffin$</expression>
+        <nostop/>
+      </LET>
+      <NEEDED_FOR/>
+    </COMMANDS>
+  </SEQUENCE>
+
+  <DECKS/>
+
+</OPTIMUS>

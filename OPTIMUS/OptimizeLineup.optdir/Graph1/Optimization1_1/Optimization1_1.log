@@ -1,0 +1,28 @@
+
+   _|_|    _|_|_|    _|_|_|_|_|  _|_|_|  _|      _|  _|    _|    _|_|_|
+ _|    _|  _|    _|      _|        _|    _|_|  _|_|  _|    _|  _|
+ _|    _|  _|_|_|        _|        _|    _|  _|  _|  _|    _|    _|_|
+ _|    _|  _|            _|        _|    _|      _|  _|    _|        _|
+   _|_|    _|            _|      _|_|_|  _|      _|    _|_|    _|_|_|
+
+                            KERNEL Rev 10.17
+
+Reading sequence file Optimization1_1.seq
+Verifying sequence
+Wed Nov 18 23:13:07 2015: Starting experiment 1/2
+Wed Nov 18 23:13:08 2015: Starting experiment 2/2
+OPTIMAL EXPERIMENT = 1
+Wed Nov 18 23:13:10 2015: Starting experiment 3/3
+Wed Nov 18 23:13:12 2015: Starting experiment 4/4
+Wed Nov 18 23:13:14 2015: Starting experiment 5/5
+Wed Nov 18 23:13:15 2015: Starting experiment 6/6
+Wed Nov 18 23:13:17 2015: Starting experiment 7/7
+Wed Nov 18 23:13:19 2015: Starting experiment 8/8
+Wed Nov 18 23:13:20 2015: Starting experiment 9/9
+Wed Nov 18 23:13:22 2015: Starting experiment 10/10
+Wed Nov 18 23:13:24 2015: Starting experiment 11/11
+Wed Nov 18 23:13:26 2015: Starting experiment 12/12
+optimus_kernel: ERROR: In user optimization:
+"No feasible initial values found!"
+Sequence started at Wed Nov 18 23:13:06 2015
+Wed Nov 18 23:13:27 2015: Sequence ended

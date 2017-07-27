@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<OPTIMUS>
+
+  <FACTORS>
+    <FACTOR gid="Input1" name="Input1" range="LOW/HIGH" type="REAL">
+      <nominal>0</nominal>
+      <tol>1e-006</tol>
+    </FACTOR>
+    <FACTOR gid="Eric Bledsoe" name="Eric Bledsoe" range="LOW/HIGH" type="REAL">
+      <nominal>38.37</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>5.63333333333</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Trey Burke" name="Trey Burke" range="LOW/HIGH" type="REAL">
+      <nominal>19.5</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.56666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Russell Westbrook" name="Russell Westbrook" range="LOW/HIGH" type="REAL">
+      <nominal>52.52</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>5.23333333333</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Dirk Nowitzki" name="Dirk Nowitzki" range="LOW/HIGH" type="REAL">
+      <nominal>29.55</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.36666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Kawhi Leonard" name="Kawhi Leonard" range="LOW/HIGH" type="REAL">
+      <nominal>38.09</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>2.85</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Clint Capela" name="Clint Capela" range="LOW/HIGH" type="REAL">
+      <nominal>19.51</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.7</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Jeremy Lamb" name="Jeremy Lamb" range="LOW/HIGH" type="REAL">
+      <nominal>21.74</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.25</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Ed Davis" name="Ed Davis" range="LOW/HIGH" type="REAL">
+      <nominal>17.55</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>4.15</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+  </FACTORS>
+
+  <RESPONSES>
+    <RESPONSE gid="Output1" name="Output1">
+      <defv>0</defv>
+      <taf>1</taf>
+    </RESPONSE>
+  </RESPONSES>
+
+  <REUSE>MonteCarlo1_1.append</REUSE>
+
+  <DEPENDENCIES>
+    <DEPENDENCY>
+      <var>Input1</var>
+      <var>Eric Bledsoe</var>
+      <var>Trey Burke</var>
+      <var>Russell Westbrook</var>
+      <var>Dirk Nowitzki</var>
+      <var>Kawhi Leonard</var>
+      <var>Clint Capela</var>
+      <var>Jeremy Lamb</var>
+      <var>Ed Davis</var>
+      <depvar>Output1</depvar>
+    </DEPENDENCY>
+  </DEPENDENCIES>
+
+  <EXPERIMENT type="MONTE-CARLO">
+    <numpoints>5000</numpoints>
+    <seed>95</seed>
+    <uselatinhypercube>0</uselatinhypercube>
+  </EXPERIMENT>
+
+  <SEQUENCE>
+    <PRE-COMMANDS/>
+    <COMMANDS>
+      <NEEDED_FOR>
+        <var>Output1</var>
+      </NEEDED_FOR>
+      <LET gid="Output1">
+        <var>Output1</var>
+        <expression>$Eric Bledsoe$+$Trey Burke$+$Russell Westbrook$+$Dirk Nowitzki$+$Kawhi Leonard$+$Clint Capela$+$Jeremy Lamb$+$Ed Davis$</expression>
+        <nostop/>
+      </LET>
+      <NEEDED_FOR/>
+    </COMMANDS>
+  </SEQUENCE>
+
+  <DECKS/>
+
+</OPTIMUS>

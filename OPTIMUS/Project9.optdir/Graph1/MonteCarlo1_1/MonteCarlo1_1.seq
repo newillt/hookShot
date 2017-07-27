@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<OPTIMUS>
+
+  <FACTORS>
+    <FACTOR gid="Input1" name="Input1" range="LOW/HIGH" type="REAL">
+      <nominal>0</nominal>
+      <tol>1e-006</tol>
+    </FACTOR>
+    <FACTOR gid="Omri Casspi" name="Omri Casspi" range="LOW/HIGH" type="REAL">
+      <nominal>18.89</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>3.53333333333</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Marco Belinelli" name="Marco Belinelli" range="LOW/HIGH" type="REAL">
+      <nominal>17.46</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>3.1</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Rajon Rondo" name="Rajon Rondo" range="LOW/HIGH" type="REAL">
+      <nominal>35.92</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.3</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Jerryd Bayless" name="Jerryd Bayless" range="LOW/HIGH" type="REAL">
+      <nominal>22.3</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.0</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Greg Monroe" name="Greg Monroe" range="LOW/HIGH" type="REAL">
+      <nominal>35.35</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.3</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Jamal Crawford" name="Jamal Crawford" range="LOW/HIGH" type="REAL">
+      <nominal>19.41</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>8.03333333333</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Draymond Green" name="Draymond Green" range="LOW/HIGH" type="REAL">
+      <nominal>34.81</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.01666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Blake Griffin" name="Blake Griffin" range="LOW/HIGH" type="REAL">
+      <nominal>44.75</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>6.41666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+  </FACTORS>
+
+  <RESPONSES>
+    <RESPONSE gid="Output1" name="Output1">
+      <defv>0</defv>
+      <taf>1</taf>
+    </RESPONSE>
+  </RESPONSES>
+
+  <REUSE>MonteCarlo1_1.append</REUSE>
+
+  <DEPENDENCIES>
+    <DEPENDENCY>
+      <var>Input1</var>
+      <var>Omri Casspi</var>
+      <var>Marco Belinelli</var>
+      <var>Rajon Rondo</var>
+      <var>Jerryd Bayless</var>
+      <var>Greg Monroe</var>
+      <var>Jamal Crawford</var>
+      <var>Draymond Green</var>
+      <var>Blake Griffin</var>
+      <depvar>Output1</depvar>
+    </DEPENDENCY>
+  </DEPENDENCIES>
+
+  <EXPERIMENT type="MONTE-CARLO">
+    <numpoints>5000</numpoints>
+    <seed>68</seed>
+    <uselatinhypercube>0</uselatinhypercube>
+  </EXPERIMENT>
+
+  <SEQUENCE>
+    <PRE-COMMANDS/>
+    <COMMANDS>
+      <NEEDED_FOR>
+        <var>Output1</var>
+      </NEEDED_FOR>
+      <LET gid="Output1">
+        <var>Output1</var>
+        <expression>$Omri Casspi$+$Marco Belinelli$+$Rajon Rondo$+$Jerryd Bayless$+$Greg Monroe$+$Jamal Crawford$+$Draymond Green$+$Blake Griffin$</expression>
+        <nostop/>
+      </LET>
+      <NEEDED_FOR/>
+    </COMMANDS>
+  </SEQUENCE>
+
+  <DECKS/>
+
+</OPTIMUS>

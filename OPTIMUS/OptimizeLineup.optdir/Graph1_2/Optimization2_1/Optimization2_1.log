@@ -1,0 +1,38 @@
+
+   _|_|    _|_|_|    _|_|_|_|_|  _|_|_|  _|      _|  _|    _|    _|_|_|
+ _|    _|  _|    _|      _|        _|    _|_|  _|_|  _|    _|  _|
+ _|    _|  _|_|_|        _|        _|    _|  _|  _|  _|    _|    _|_|
+ _|    _|  _|            _|        _|    _|      _|  _|    _|        _|
+   _|_|    _|            _|      _|_|_|  _|      _|    _|_|    _|_|_|
+
+                            KERNEL Rev 10.17
+
+Reading sequence file Optimization2_1.seq
+Verifying sequence
+Thu Nov 19 06:48:01 2015: Starting experiment 1/1
+OPTIMAL EXPERIMENT = 1
+Thu Nov 19 06:48:01 2015: Starting experiment 2/2
+Thu Nov 19 06:48:02 2015: Starting experiment 3/3
+Thu Nov 19 06:48:04 2015: Starting experiment 4/4
+Thu Nov 19 06:48:05 2015: Starting experiment 5/5
+Thu Nov 19 06:48:06 2015: Starting experiment 6/6
+Thu Nov 19 06:48:08 2015: Starting experiment 7/7
+Thu Nov 19 06:48:09 2015: Starting experiment 8/8
+Thu Nov 19 06:48:11 2015: Starting experiment 9/9
+Thu Nov 19 06:48:12 2015: Starting experiment 10/10
+Thu Nov 19 06:48:13 2015: Starting experiment 11/11
+Access is denied.
+optimus_kernel: ERROR: variable FDFP: Unable to open file C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\OPTIMUS\OptimizeLineup.optdir\Graph1_2\Optimization2_1\OutputFile
+optimus_kernel: ERROR: variable Sigma6: Unable to open file C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\OPTIMUS\OptimizeLineup.optdir\Graph1_2\Optimization2_1\OutputFile
+optimus_kernel: ERROR: variable Salary: Unable to open file C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\OPTIMUS\OptimizeLineup.optdir\Graph1_2\Optimization2_1\OutputFile
+Thu Nov 19 06:48:13 2015: Starting experiment 12/12
+Thu Nov 19 06:48:16 2015: Starting experiment 13/13
+Thu Nov 19 06:48:17 2015: Starting experiment 14/14
+Thu Nov 19 06:48:18 2015: Starting experiment 15/15
+Thu Nov 19 06:48:20 2015: Starting experiment 16/16
+Thu Nov 19 06:48:21 2015: Starting experiment 17/17
+Thu Nov 19 06:48:23 2015: Starting experiment 18/18
+Thu Nov 19 06:48:24 2015: Starting experiment 19/19
+Thu Nov 19 06:48:26 2015: Starting experiment 20/20
+Sequence started at Thu Nov 19 06:48:00 2015
+Thu Nov 19 06:48:26 2015: Sequence ended

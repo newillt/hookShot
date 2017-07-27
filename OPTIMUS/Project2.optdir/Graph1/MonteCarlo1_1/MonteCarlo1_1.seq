@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<OPTIMUS>
+
+  <FACTORS>
+    <FACTOR gid="Input1" name="Input1" range="LOW/HIGH" type="REAL">
+      <nominal>0</nominal>
+      <tol>1e-006</tol>
+    </FACTOR>
+    <FACTOR gid="Eric Bledsoe" name="Eric Bledsoe" range="LOW/HIGH" type="REAL">
+      <nominal>39.78</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>5.63333333333</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="Damian Lillard" name="Damian Lillard" range="LOW/HIGH" type="REAL">
+      <nominal>39.9</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>3.96666666667</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+    <FACTOR gid="James Harden" name="James Harden" range="LOW/HIGH" type="REAL">
+      <nominal>45.85</nominal>
+      <tol>1e-006</tol>
+      <DISTR type="NORMAL">
+        <sigma>5.8</sigma>
+      </DISTR>
+      <delta>AUTO</delta>
+    </FACTOR>
+  </FACTORS>
+
+  <RESPONSES>
+    <RESPONSE gid="Output1" name="Output1">
+      <defv>0</defv>
+      <taf>1</taf>
+    </RESPONSE>
+  </RESPONSES>
+
+  <REUSE>MonteCarlo1_1.append</REUSE>
+
+  <DEPENDENCIES>
+    <DEPENDENCY>
+      <var>Input1</var>
+      <var>Eric Bledsoe</var>
+      <var>Damian Lillard</var>
+      <var>James Harden</var>
+      <depvar>Output1</depvar>
+    </DEPENDENCY>
+  </DEPENDENCIES>
+
+  <EXPERIMENT type="MONTE-CARLO">
+    <numpoints>5000</numpoints>
+    <seed>40</seed>
+    <uselatinhypercube>0</uselatinhypercube>
+  </EXPERIMENT>
+
+  <SEQUENCE>
+    <PRE-COMMANDS/>
+    <COMMANDS>
+      <NEEDED_FOR>
+        <var>Output1</var>
+      </NEEDED_FOR>
+      <LET gid="Output1">
+        <var>Output1</var>
+        <expression>$Eric Bledsoe$+$Damian Lillard$+$James Harden$</expression>
+        <nostop/>
+      </LET>
+      <NEEDED_FOR/>
+    </COMMANDS>
+  </SEQUENCE>
+
+  <DECKS/>
+
+</OPTIMUS>
