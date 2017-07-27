@@ -1,0 +1,166 @@
+#1C
+LeBron James
+Blake Griffin
+Draymond Green
+Greg Monroe
+Rajon Rondo
+Jamal Crawford
+Jerryd Bayless
+Omri Casspi
+Marco Belinelli
+38.26
+
+
+#2FC
+Stephen Curry
+LeBron James
+Blake Griffin
+Kevin Love
+Andre Iguodala
+Jamal Crawford
+Jerryd Bayless
+Kosta Koufos
+Marco Belinelli
+46.7
+
+#3FP
+LeBron James
+Blake Griffin
+Chris Paul
+DeAndre Jordan
+Dwyane Wade
+Goran Dragic
+Josh Smith
+Paul Pierce
+Ben McLemore
+.12
+
+#4ALL
+LeBron James
+Blake Griffin
+Kevin Love
+Rajon Rondo
+Dwyane Wade
+Andrew Bogut
+Andre Iguodala
+Jamal Crawford
+Tyler Johnson
+38.14
+
+#5PERALL
+Stephen Curry
+Blake Griffin
+Chris Bosh
+Dwyane Wade
+Mo Williams
+Andrew Bogut
+Andre Iguodala
+Jamal Crawford
+Omri Casspi
+28.9
+
+
+#6PerFC
+Stephen Curry
+Blake Griffin
+Chris Bosh
+Dwyane Wade
+Mo Williams
+Andrew Bogut
+Andre Iguodala
+Jamal Crawford
+Omri Casspi
+28.96
+
+#8PerFP
+Stephen Curry
+LeBron James
+Blake Griffin
+Dwyane Wade
+Andrew Bogut
+Andre Iguodala
+Jamal Crawford
+John Henson
+Tyler Johnson
+28.76
+
+#9PEerFP - Henson
+Stephen Curry
+Blake Griffin
+Chris Bosh
+Dwyane Wade
+Mo Williams
+Andrew Bogut
+Andre Iguodala
+Jamal Crawford
+Omri Casspi
+29.2
+
+#10PERC
+Stephen Curry
+LeBron James
+Blake Griffin
+Dwyane Wade
+Andrew Bogut
+Jamal Crawford
+Jerryd Bayless
+Omri Casspi
+John Henson
+30.48
+
+#10PERC-Henson
+
+
+Ben
+Stephen Curry
+Tyler Johnson
+Marco Belinelli
+Lance Stephenson
+LeBron james
+Justise Winslow
+Jabari Parker
+Blake Griffin
+Hassan Whiteside
+4.04	
+
+
+Fantasy Pros
+Goran Dragic
+Chris Paul
+Dwyane Wade
+Ben McLemore
+Paul Pierce
+LeBron James
+Josh Smith
+Blake Griffin
+DeAndre Jordan
+.1
+
+Blake Griffin
+Kevin Love
+Jerryd Bayless
+Stephen Curry
+Andre Iguodala
+LeBron James
+Jamal Crawford
+Marco Belinelli
+Kosta Koufos
+46.88
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

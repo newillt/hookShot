@@ -1,0 +1,420 @@
+MP
+Rajon Rondo
+Isaiah Thomas
+Marcus Morris
+Marc Gasol
+Bradley Beal
+Trevor Ariza
+Kristaps Porzingis
+Tristan Thompson
+Gary Harris
+
+
+
+FP
+LeBron James
+John Wall
+Chris Paul
+Gary Harris
+Blake Griffin
+Klay Thompson
+P.J. Tucker
+Ersan Ilyasova
+Robin Lopez
+
+
+F
+LeBron James
+Kentavious Caldwell-Pope
+Al Horford
+Marvin Williams
+Eric Gordon
+Jared Sullinger
+Andre Iguodala
+Matthew Dellavedova
+Russell Westbrook
+
+C
+Rajon Rondo
+Brandon Knight
+Blake Griffin
+Andre Drummond
+Marvin Williams
+Evan Fournier
+Jae Crowder
+Will Barton
+Omri Casspi
+
+
+FCAVE
+Russell Westbrook
+Blake Griffin
+Andre Drummond
+Marvin Williams
+Eric Gordon
+Jae Crowder
+Jerryd Bayless
+Will Barton
+Omri Casspi
+
+ALL
+James Harden
+Russell Westbrook
+Gary Harris
+Blake Griffin
+Ishmael Smith
+Marvin Williams
+Andre Iguodala
+Omri Casspi
+Robin Lopez
+
+
+PERALL
+Stephen Curry
+Russell Westbrook
+Blake Griffin
+Nikola Vucevic
+Thabo Sefolosha
+Will Barton
+Kirk Hinrich
+T.J. Warren
+Ersan Ilyasova
+
+
+PERFC
+Stephen Curry
+Russell Westbrook
+Blake Griffin
+Marvin Williams
+Karl-Anthony Towns
+Will Barton
+Kirk Hinrich
+T.J. Warren
+Omri Casspi
+
+
+PERMP
+Isaiah Thomas
+Stephen Curry
+Tristan Thompson
+Gary Harris
+Kentavious Caldwell-Pope
+Blake Griffin
+Hassan Whiteside
+C.J. Miles
+Thabo Sefolosha
+
+
+WOWMP
+Isaiah Thomas
+LeBron James
+Avery Bradley
+Jahlil Okafor
+Robert Covington
+LaMarcus Aldridge
+Gary Harris
+Ishmael Smith
+Jared Sullinger
+
+
+PerWowMP
+Isaiah Thomas
+LeBron James
+Avery Bradley
+Jahlil Okafor
+Robert Covington
+LaMarcus Aldridge
+Gary Harris
+Ishmael Smith
+Jared Sullinger
+
+
+WowMPAll
+Isaiah Thomas
+LeBron James
+Avery Bradley
+Jahlil Okafor
+Robert Covington
+LaMarcus Aldridge
+Gary Harris
+Ishmael Smith
+Jared Sullinger
+
+
+
+WPWMPPERALL
+Isaiah Thomas
+LeBron James
+Stephen Curry
+Hassan Whiteside
+Marvin Williams
+Jared Sullinger
+Will Barton
+Kirk Hinrich
+T.J. Warren
+
+
+WowMPPerFC
+Stephen Curry
+Russell Westbrook
+Hassan Whiteside
+Marvin Williams
+C.J. Miles
+Jared Sullinger
+Thabo Sefolosha
+Will Barton
+Kirk Hinrich
+
+
+FCMP
+Rajon Rondo
+Isaiah Thomas
+Kawhi Leonard
+Marcus Morris
+Jahlil Okafor
+Gary Harris
+Kentavious Caldwell-Pope
+Blake Griffin
+Marvin Williams
+
+
+CMP
+James Harden
+Rajon Rondo
+Marcus Morris
+Brandon Knight
+Jahlil Okafor
+Robert Covington
+Tristan Thompson
+Gary Harris
+Marvin Williams
+
+
+-----------------------
+-----------------------
+50
+-----------------------
+-----------------------
+
+MP
+Rajon Rondo
+Isaiah Thomas
+Marcus Morris
+Marc Gasol
+Bradley Beal
+Trevor Ariza
+Kristaps Porzingis
+Tristan Thompson
+Gary Harris
+
+
+FP
+
+Marc Gasol
+Trevor Ariza
+John Wall
+Robert Covington
+Chris Paul
+Gary Harris
+Nerlens Noel
+Serge Ibaka
+Klay Thompson
+
+
+
+C
+Rajon Rondo
+Marcus Morris
+Brandon Knight
+Avery Bradley
+Jahlil Okafor
+Gary Harris
+Blake Griffin
+Nerlens Noel
+Evan Turner
+
+
+FCAVE
+Rajon Rondo
+Isaiah Thomas
+Marcus Morris
+Jahlil Okafor
+Gary Harris
+Nicolas Batum
+Kentavious Caldwell-Pope
+Blake Griffin
+Ryan Anderson
+
+
+ALL
+Isaiah Thomas
+Marcus Morris
+Brandon Knight
+Jahlil Okafor
+Gary Harris
+Kentavious Caldwell-Pope
+Blake Griffin
+Paul Millsap
+Evan Turner
+
+PER
+Isaiah Thomas
+Stephen Curry
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Otto Porter
+Kentavious Caldwell-Pope
+Blake Griffin
+Evan Turner
+
+
+PERALL
+Isaiah Thomas
+Stephen Curry
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Otto Porter
+Kentavious Caldwell-Pope
+Blake Griffin
+Evan Turner
+
+PERFC
+Isaiah Thomas
+Stephen Curry
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Otto Porter
+Kentavious Caldwell-Pope
+Blake Griffin
+Evan Turner
+
+PERMP
+Isaiah Thomas
+Kawhi Leonard
+Kemba Walker
+Avery Bradley
+Kristaps Porzingis
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Otto Porter
+
+WowMP
+Isaiah Thomas
+Stephen Curry
+Avery Bradley
+Jahlil Okafor
+Robert Covington
+LaMarcus Aldridge
+Tristan Thompson
+Gary Harris
+Evan Turner
+
+
+PerWowMP
+Isaiah Thomas
+Stephen Curry
+Avery Bradley
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Chris Bosh
+Otto Porter
+Evan Turner
+
+
+WowMPAll
+Isaiah Thomas
+LeBron James
+Brandon Knight
+Jahlil Okafor
+Robert Covington
+LaMarcus Aldridge
+Tristan Thompson
+Gary Harris
+Kentavious Caldwell-Pope
+
+
+
+WowMPPerAll
+Isaiah Thomas
+Stephen Curry
+Avery Bradley
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Chris Bosh
+Otto Porter
+Evan Turner
+
+
+WowMP- Non Linear
+
+Isaiah Thomas
+Kawhi Leonard
+Brandon Knight
+Avery Bradley
+Jahlil Okafor
+Tristan Thompson
+Gary Harris
+Evan Turner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
