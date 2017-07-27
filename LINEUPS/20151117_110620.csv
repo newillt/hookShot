@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Manu Ginobili , 22.15 , 9.5 , 30.1 , 3.43333333333
+T.J. Warren , 16.18 , 1.2 , 24.7 , 3.91666666667
+Russell Westbrook , 51.27 , 39.8 , 71.2 , 5.23333333333
+Dirk Nowitzki , 29.5 , 17.5 , 43.7 , 4.36666666667
+James Harden , 45.85 , 31.9 , 66.7 , 5.8
+Jared Sullinger , 27.51 , 14.1 , 39.1 , 4.16666666667
+T.J. McConnell , 22.92 , 11.4 , 34.8 , 3.9
+Clint Capela , 19.37 , 8.2 , 36.4 , 4.7
+Kawhi Leonard , 37.56 , 31.5 , 48.6 , 2.85
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1396
+ProbabilityOfSuccess,  0.2792

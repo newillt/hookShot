@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Langston Galloway , 20.83 , 4 , 31.4 , 4.56666666667
+Thaddeus Young , 28.41 , 16.4 , 47.5 , 5.18333333333
+Festus Ezeli , 20.1 , 10 , 30.4 , 3.4
+Stephen Curry , 50.29 , 33.7 , 77.3 , 7.26666666667
+LeBron James , 46.86 , 30.9 , 59.9 , 4.83333333333
+Thabo Sefolosha , 17.44 , 10.8 , 22.9 , 2.01666666667
+Chris Bosh , 36.21 , 23.6 , 45.6 , 3.66666666667
+Ricky Rubio , 34.37 , 20.7 , 52.4 , 5.28333333333
+Jeremy Lamb , 21.5 , 6.8 , 32.3 , 4.25
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1907
+ProbabilityOfSuccess,  0.3814

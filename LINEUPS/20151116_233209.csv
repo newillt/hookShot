@@ -1,0 +1,18 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Jeff Green , 14.73 , 0.4 , 28.3 , 4.65
+Chandler Parsons , 9.82 , 5.2 , 12.6 , 1.23333333333
+Monta Ellis , 25.49 , 11.9 , 39.1 , 4.53333333333
+Ed Davis , 19.03 , 8.9 , 27.7 , 3.13333333333
+LaMarcus Aldridge , 30.98 , 20.5 , 50.3 , 4.96666666667
+Damian Lillard , 39.9 , 27.1 , 50.9 , 3.96666666667
+T.J. McConnell , 22.92 , 11.4 , 34.8 , 3.9
+James Harden , 45.85 , 31.9 , 66.7 , 5.8
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 138, in <module>
+    summary_reader(mc)
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 51, in summary_reader
+    if float(methodSummary.values()[index][9]) > lowCutOff:
+IndexError: list index out of range

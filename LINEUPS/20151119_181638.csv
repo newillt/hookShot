@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Chris Bosh , 34.53 , 19.4 , 45.6 , 4.36666666667
+Dwyane Wade , 27.9 , 18.4 , 38 , 3.26666666667
+Andrew Bogut , 25.37 , 9.9 , 45.6 , 5.95
+Omri Casspi , 18.89 , 9.1 , 30.3 , 3.53333333333
+Andre Iguodala , 22.84 , 13.5 , 34.2 , 3.45
+Stephen Curry , 50.26 , 33.7 , 77.3 , 7.26666666667
+Mo Williams , 26.87 , 11.5 , 44.2 , 5.45
+Jamal Crawford , 19.41 , 7 , 55.2 , 8.03333333333
+Blake Griffin , 44.75 , 22.6 , 61.1 , 6.41666666667
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1445
+ProbabilityOfSuccess,  0.289

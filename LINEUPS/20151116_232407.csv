@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Andre Drummond , 47.07 , 33.4 , 70.4 , 6.16666666667
+Rodney Hood , 21.14 , 16.2 , 29.5 , 2.21666666667
+Marcus Morris , 27.89 , 11.4 , 38.3 , 4.48333333333
+DeMar DeRozan , 32.75 , 15.7 , 42 , 4.38333333333
+Dennis Schroder , 20.54 , 8.9 , 32.6 , 3.95
+Jared Sullinger , 27.51 , 14.1 , 39.1 , 4.16666666667
+Paul Millsap , 37.35 , 20.6 , 45.4 , 4.13333333333
+Kyle Lowry , 38.37 , 22.3 , 54 , 5.28333333333
+Jae Crowder , 25.88 , 17.3 , 38 , 3.45
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Success,  3080
+ProbabilityOfSuccess,  0.616

@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Omri Casspi , 18.89 , 9.1 , 30.3 , 3.53333333333
+Marco Belinelli , 17.46 , 8 , 26.6 , 3.1
+Rajon Rondo , 35.92 , 18.2 , 56 , 6.3
+LeBron James , 46.03 , 30.9 , 59.9 , 4.83333333333
+Jerryd Bayless , 22.3 , 5.2 , 41.2 , 6.0
+Greg Monroe , 35.35 , 15 , 52.8 , 6.3
+Jamal Crawford , 19.41 , 7 , 55.2 , 8.03333333333
+Draymond Green , 34.81 , 20.5 , 56.6 , 6.01666666667
+Blake Griffin , 44.75 , 22.6 , 61.1 , 6.41666666667
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1913
+ProbabilityOfSuccess,  0.3826

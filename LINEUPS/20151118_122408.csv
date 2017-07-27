@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Andre Drummond , 47.07 , 33.4 , 70.4 , 6.16666666667
+Will Barton , 25.38 , 8.9 , 44.4 , 5.91666666667
+Nene Hilario , 16.43 , 5.9 , 31.5 , 4.26666666667
+Stephen Curry , 50.29 , 33.7 , 77.3 , 7.26666666667
+LeBron James , 46.86 , 30.9 , 59.9 , 4.83333333333
+Kemba Walker , 29.44 , 17.9 , 42.3 , 4.06666666667
+Kris Humphries , 17 , 7.6 , 32 , 4.06666666667
+Giannis Antetokounmpo , 31.06 , 19.6 , 40.8 , 3.53333333333
+Carmelo Anthony , 38.35 , 25.8 , 51.4 , 4.26666666667
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Success,  4793
+ProbabilityOfSuccess,  0.9586

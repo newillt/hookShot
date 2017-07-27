@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Tyler Johnson , 17.28 , 5.9 , 29.3 , 3.9
+Dwyane Wade , 27.9 , 18.4 , 38 , 3.26666666667
+Andrew Bogut , 25.37 , 9.9 , 45.6 , 5.95
+Rajon Rondo , 35.92 , 18.2 , 56 , 6.3
+Andre Iguodala , 22.84 , 13.5 , 34.2 , 3.45
+Kevin Love , 35.5 , 22.2 , 51.8 , 4.93333333333
+LeBron James , 46.03 , 30.9 , 59.9 , 4.83333333333
+Jamal Crawford , 19.41 , 7 , 55.2 , 8.03333333333
+Blake Griffin , 44.75 , 22.6 , 61.1 , 6.41666666667
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1907
+ProbabilityOfSuccess,  0.3814

@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+John Henson , 15.28 , 5.6 , 36.5 , 5.15
+Will Barton , 25.38 , 8.9 , 44.4 , 5.91666666667
+Danilo Gallinari , 27.42 , 12.9 , 45.1 , 5.36666666667
+Andrew Bogut , 25.4 , 9.9 , 45.6 , 5.95
+Stephen Curry , 50.29 , 33.7 , 77.3 , 7.26666666667
+Thaddeus Young , 28.41 , 16.4 , 47.5 , 5.18333333333
+LeBron James , 46.86 , 30.9 , 59.9 , 4.83333333333
+Ricky Rubio , 34.37 , 20.7 , 52.4 , 5.28333333333
+Jeremy Lamb , 21.5 , 6.8 , 32.3 , 4.25
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1856
+ProbabilityOfSuccess,  0.3712

@@ -1,0 +1,13 @@
+Andre Drummond 47.07 33.4 70.4
+Rodney Hood 21.14 16.2 29.5
+Marcus Morris 27.89 11.4 38.3
+DeMar DeRozan 32.75 15.7 42
+Dennis Schroder 20.54 8.9 32.6
+Jared Sullinger 27.51 14.1 39.1
+Paul Millsap 37.35 20.6 45.4
+Kyle Lowry 38.37 22.3 54
+Jae Crowder 25.88 17.3 38
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 115, in <module>
+    output1.setLow(float(lowCutOff))
+ValueError: could not convert string to float: 

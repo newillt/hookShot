@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Eric Bledsoe , 38.37 , 21.8 , 55.6 , 5.63333333333
+Evan Fournier , 29.04 , 12.3 , 44 , 5.28333333333
+Joffrey Lauvergne , 21.93 , 19 , 24.9 , 0.983333333333
+Russell Westbrook , 52.52 , 39.8 , 71.2 , 5.23333333333
+Jeff Withey , 22.4 , 22.4 , 22.4 , 0.0
+Tim Duncan , 27.77 , 20.6 , 42 , 3.56666666667
+Jae Crowder , 25.51 , 17.3 , 38 , 3.45
+Dwight Powell , 23.85 , 15.7 , 31.3 , 2.6
+Kyle Lowry , 38.85 , 22.3 , 54 , 5.28333333333
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  2559
+ProbabilityOfSuccess,  0.5118

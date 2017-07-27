@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Eric Bledsoe , 38.37 , 21.8 , 55.6 , 5.63333333333
+Karl-Anthony Towns , 32.61 , 18.3 , 54.8 , 6.08333333333
+Danilo Gallinari , 29.53 , 12.9 , 50.6 , 6.28333333333
+Thaddeus Young , 29.21 , 16.4 , 47.5 , 5.18333333333
+Jae Crowder , 25.51 , 17.3 , 38 , 3.45
+Jared Sullinger , 26.98 , 14.1 , 39.1 , 4.16666666667
+T.J. McConnell , 23.78 , 11.4 , 34.8 , 3.9
+Jarrett Jack , 30.06 , 15.2 , 48.3 , 5.51666666667
+James Harden , 43.29 , 17.7 , 66.7 , 8.16666666667
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  2414
+ProbabilityOfSuccess,  0.4828

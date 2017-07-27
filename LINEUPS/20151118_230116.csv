@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Eric Bledsoe , 38.37 , 21.8 , 55.6 , 5.63333333333
+Evan Fournier , 29.04 , 12.3 , 44 , 5.28333333333
+Thaddeus Young , 29.21 , 16.4 , 47.5 , 5.18333333333
+Russell Westbrook , 52.52 , 39.8 , 71.2 , 5.23333333333
+Rajon Rondo , 35.87 , 18.2 , 56 , 6.3
+Kosta Koufos , 19.9 , 8.6 , 29.4 , 3.46666666667
+Dirk Nowitzki , 29.55 , 17.5 , 43.7 , 4.36666666667
+Jae Crowder , 25.51 , 17.3 , 38 , 3.45
+Al-Farouq Aminu , 25.77 , 19.3 , 33.1 , 2.3
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  3311
+ProbabilityOfSuccess,  0.6622

@@ -1,0 +1,18 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Goran Dragic , 20.04 , 6.9 , 32 , 4.18333333333
+Gorgui Dieng , 13.81 , 4.2 , 20.2 , 2.66666666667
+Arron Afflalo , 17.3 , 7.6 , 23.6 , 2.66666666667
+Ersan Ilyasova , 15.2 , 6.9 , 27.9 , 3.5
+Andrew Wiggins , 26.73 , 8.2 , 44 , 5.96666666667
+Klay Thompson , 24.64 , 13.4 , 33.5 , 3.35
+Jeff Teague , 31.31 , 12.3 , 45.7 , 5.56666666667
+Anthony Davis , 45.04 , 29.2 , 72.5 , 7.21666666667
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 138, in <module>
+    summary_reader(mc)
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 51, in summary_reader
+    if float(methodSummary.values()[index][9]) > lowCutOff:
+IndexError: list index out of range

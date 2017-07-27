@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Kentavious Caldwell-Pope , 22.52 , 15.2 , 27.8 , 2.1
+Thaddeus Young , 28.41 , 16.4 , 47.5 , 5.18333333333
+Andre Iguodala , 23.09 , 13.5 , 34.2 , 3.45
+LeBron James , 46.86 , 30.9 , 59.9 , 4.83333333333
+Jerryd Bayless , 21.86 , 5.2 , 41.2 , 6.0
+Dennis Schroder , 20.54 , 8.9 , 32.6 , 3.95
+Andre Drummond , 47.07 , 33.4 , 70.4 , 6.16666666667
+Giannis Antetokounmpo , 31.06 , 19.6 , 40.8 , 3.53333333333
+Paul Millsap , 37.35 , 20.6 , 45.4 , 4.13333333333
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Success,  3045
+ProbabilityOfSuccess,  0.609

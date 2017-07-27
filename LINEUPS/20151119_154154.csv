@@ -1,0 +1,7 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Traceback (most recent call last):
+  File "C:\Users\barrick\Dropbox\NBAPredictor\CalculateMC.py", line 137, in <module>
+    mc.loadResults()
+  File "C:\Program Files\NOESIS\OPTIMUS\10.17\bin\Win64\optimus.py", line 1708, in loadResults
+    return _optimus.Method_loadResults(self)
+IOError: Unable to open file 'C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\OPTIMUS\Project5.optdir\Graph1\MonteCarlo1_1\MonteCarlo1_1.summary'.

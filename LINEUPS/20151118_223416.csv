@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Nemanja Bjelica , 19.46 , 5.2 , 39.7 , 5.75
+Evan Fournier , 29.04 , 12.3 , 44 , 5.28333333333
+Danilo Gallinari , 29.53 , 12.9 , 50.6 , 6.28333333333
+Brandon Knight , 33.86 , 10.2 , 70.5 , 10.05
+Derrick Favors , 34.71 , 8.6 , 61.4 , 8.8
+Karl-Anthony Towns , 32.61 , 18.3 , 54.8 , 6.08333333333
+Rajon Rondo , 35.87 , 18.2 , 56 , 6.3
+Eric Bledsoe , 38.37 , 21.8 , 55.6 , 5.63333333333
+J.J. Hickson , 16.57 , 3.8 , 42.1 , 6.38333333333
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  1583
+ProbabilityOfSuccess,  0.3166

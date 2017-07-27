@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Jamal Crawford , 19.41 , 7 , 55.2 , 8.03333333333
+Marco Belinelli , 17.46 , 8 , 26.6 , 3.1
+Andre Iguodala , 22.84 , 13.5 , 34.2 , 3.45
+Kevin Love , 35.5 , 22.2 , 51.8 , 4.93333333333
+Kosta Koufos , 20.11 , 8.6 , 29.4 , 3.46666666667
+LeBron James , 46.03 , 30.9 , 59.9 , 4.83333333333
+Jerryd Bayless , 22.3 , 5.2 , 41.2 , 6.0
+Stephen Curry , 50.26 , 33.7 , 77.3 , 7.26666666667
+Blake Griffin , 44.75 , 22.6 , 61.1 , 6.41666666667
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  2383
+ProbabilityOfSuccess,  0.4766

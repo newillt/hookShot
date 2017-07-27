@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Nerlens Noel , 27.74 , 4.8 , 46.4 , 6.93333333333
+Zaza Pachulia , 26.45 , 9.4 , 38.2 , 4.8
+Deron Williams , 24.23 , 13.5 , 28 , 2.41666666667
+Jimmy Butler , 34.34 , 20.7 , 41.2 , 3.41666666667
+Russell Westbrook , 51.27 , 39.8 , 71.2 , 5.23333333333
+Paul George , 41.46 , 20.1 , 58.9 , 6.46666666667
+Monta Ellis , 25.49 , 11.9 , 39.1 , 4.53333333333
+Boris Diaw , 14.88 , 6.7 , 27 , 3.38333333333
+Kawhi Leonard , 37.56 , 31.5 , 48.6 , 2.85
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  2930
+ProbabilityOfSuccess,  0.586

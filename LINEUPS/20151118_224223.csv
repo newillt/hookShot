@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Eric Bledsoe , 38.37 , 21.8 , 55.6 , 5.63333333333
+Andrew Wiggins , 27.67 , 8.2 , 44 , 5.96666666667
+Gordon Hayward , 26.28 , 14.5 , 39.7 , 4.2
+Brandon Knight , 33.86 , 10.2 , 70.5 , 10.05
+Rodney Hood , 21.14 , 16.2 , 29.5 , 2.21666666667
+Derrick Favors , 34.71 , 8.6 , 61.4 , 8.8
+Jerami Grant , 20.75 , 10.9 , 31.5 , 3.43333333333
+T.J. McConnell , 23.78 , 11.4 , 34.8 , 3.9
+Al Horford , 34.56 , 26.7 , 44.1 , 2.9
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Success,  663
+ProbabilityOfSuccess,  0.1326

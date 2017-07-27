@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Julius Randle , 26.08 , 1.9 , 54 , 8.68333333333
+Nik Stauskas , 18.56 , -2 , 31.1 , 5.51666666667
+Brandon Knight , 29.79 , 10.2 , 44.5 , 5.71666666667
+Paul George , 41.46 , 20.1 , 58.9 , 6.46666666667
+Terrence Jones , 23.88 , 7.8 , 37.7 , 4.98333333333
+Jae Crowder , 25.88 , 17.3 , 38 , 3.45
+Dwight Howard , 36.12 , 20.4 , 50.9 , 5.08333333333
+T.J. McConnell , 22.92 , 11.4 , 34.8 , 3.9
+James Harden , 45.85 , 31.9 , 66.7 , 5.8
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Success,  1915
+ProbabilityOfSuccess,  0.383

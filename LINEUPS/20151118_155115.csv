@@ -1,0 +1,13 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Eric Bledsoe , 39.78 , 21.8 , 55.6 , 5.63333333333
+Damian Lillard , 39.9 , 27.1 , 50.9 , 3.96666666667
+James Harden , 45.85 , 31.9 , 66.7 , 5.8
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 138, in <module>
+    summary_reader(mc)
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 51, in summary_reader
+    if float(methodSummary.values()[index][9]) > lowCutOff:
+IndexError: list index out of range

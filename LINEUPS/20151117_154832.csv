@@ -1,0 +1,18 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Andre Drummond , 47.07 , 33.4 , 70.4 , 6.16666666667
+Kyle Korver , 19.07 , 8.9 , 45.9 , 6.16666666667
+Thaddeus Young , 28.41 , 16.4 , 47.5 , 5.18333333333
+Stephen Curry , 50.29 , 33.7 , 77.3 , 7.26666666667
+LeBron James , 46.86 , 30.9 , 59.9 , 4.83333333333
+J.J. Hickson , 18.09 , 3.8 , 42.1 , 6.38333333333
+Kent Bazemore , 23.25 , 5.9 , 38.3 , 5.4
+Rondae Hollis-Jefferson , 16.49 , 5.1 , 30.6 , 4.25
+
+LowPointCutoff, 280.0
+Experiments run, 5000
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 138, in <module>
+    summary_reader(mc)
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 51, in summary_reader
+    if float(methodSummary.values()[index][9]) > lowCutOff:
+IndexError: list index out of range

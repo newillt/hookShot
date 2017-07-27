@@ -1,0 +1,8 @@
+['', '', '', '', '', '', '', '', '', '', '', '']
+['', '', '', '', '', '', '', '', '', '', '', '']
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+ ,  ,  ,  ,
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 100, in <module>
+    print i,',',inputDct[i]['Nominal'],',',inputDct[i]['Low'],',',inputDct[i]['High'],',',inputDct[i]['Sigma6']
+KeyError: 'Sigma6'

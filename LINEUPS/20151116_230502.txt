@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "C:\Users\tnewill\Dropbox\Business Ideas\NBAPredictor\CalculateMC.py", line 35, in <module>
+    numExp=xls_sheet.cell(16,1).value
+  File "C:\Anaconda\lib\site-packages\xlrd\sheet.py", line 399, in cell
+    self._cell_types[rowx][colx],
+IndexError: list index out of range

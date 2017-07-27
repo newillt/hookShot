@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Tyler Johnson , 18.9 , 11.2 , 29.3 , 3.01666666667
+Thabo Sefolosha , 17.44 , 10.8 , 22.9 , 2.01666666667
+Thaddeus Young , 28.41 , 16.4 , 47.5 , 5.18333333333
+Andrew Bogut , 25.4 , 9.9 , 45.6 , 5.95
+Dwyane Wade , 29.09 , 19.6 , 38 , 3.06666666667
+Stephen Curry , 50.29 , 33.7 , 77.3 , 7.26666666667
+LeBron James , 46.86 , 30.9 , 59.9 , 4.83333333333
+Langston Galloway , 20.83 , 4 , 31.4 , 4.56666666667
+Chris Bosh , 36.21 , 23.6 , 45.6 , 3.66666666667
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Success,  2380
+ProbabilityOfSuccess,  0.476

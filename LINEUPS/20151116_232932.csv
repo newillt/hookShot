@@ -1,0 +1,15 @@
+Name,ProjectedFP,SeasonLowFP,SeasonHighFP,Sigma
+Eric Bledsoe , 39.78 , 21.8 , 55.6 , 5.63333333333
+Russell Westbrook , 51.27 , 39.8 , 71.2 , 5.23333333333
+Jahlil Okafor , 31.16 , 18.2 , 43.5 , 4.21666666667
+Marcus Thornton , 24.81 , 8 , 45.1 , 6.18333333333
+Jae Crowder , 25.88 , 17.3 , 38 , 3.45
+Dwight Powell , 24.47 , 15.7 , 31.3 , 2.6
+Jared Sullinger , 27.51 , 14.1 , 39.1 , 4.16666666667
+T.J. McConnell , 22.92 , 11.4 , 34.8 , 3.9
+Kawhi Leonard , 37.56 , 31.5 , 48.6 , 2.85
+
+LowPointCutoff, 275.0
+Experiments run, 5000
+Success,  3941
+ProbabilityOfSuccess,  0.7882
