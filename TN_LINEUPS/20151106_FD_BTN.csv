@@ -1,0 +1,35 @@
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+1, George Hill,PG,"$6,500 ",33.27,18,-15.27
+1, Darren Collison,PG,"$5,500 ",26.22,36.5,10.28
+1, Eric Bledsoe,SG,"$8,100 ",35.7,32.4,-3.3
+1, James Harden,SG,"$9,800 ",46.87,66.7,19.83
+1, Khris Middleton,SF,"$5,700 ",25.19,22,-3.19
+1, Rudy Gay,SF,"$7,700 ",40.43,24,-16.43
+1, Julius Randle,PF,"$5,700 ",28.56,27.9,-0.66
+1, Markieff Morris,PF,"$5,800 ",26.38,24.8,-1.58
+1, Willie Cauley-Stein,C,"$4,900 ",33.18,27.3,-5.88
+,,,Total,295.8,279.6,-16.2
+,,,,,,
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+2, George Hill,PG,"$6,500 ",33.27,18,-15.27
+2, Darren Collison,PG,"$5,500 ",26.22,36.5,10.28
+2, James Harden,SG,"$9,800 ",46.87,66.7,19.83
+2, Marco Belinelli,SG,"$3,900 ",13.63,9.2,-4.43
+2, LeBron James,SF,"$10,100 ",46.31,57.3,10.99
+2, Rudy Gay,SF,"$7,700 ",40.43,24,-16.43
+2, Julius Randle,PF,"$5,700 ",28.56,27.9,-0.66
+2, Markieff Morris,PF,"$5,800 ",26.38,24.8,-1.58
+2, Willie Cauley-Stein,C,"$4,900 ",33.18,27.3,-5.88
+,,,Total,294.85,291.7,-3.15
+,,,,,,
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+3, Jerryd Bayless,PG,"$3,500 ",14.21,13.4,-0.81
+3, Rajon Rondo,PG,"$6,100 ",26.68,31.1,4.42
+3, Monta Ellis,SG,"$6,300 ",26.36,19.8,-6.56
+3, Eric Bledsoe,SG,"$8,100 ",35.7,32.4,-3.3
+3, LeBron James,SF,"$10,100 ",46.31,57.3,10.99
+3, Khris Middleton,SF,"$5,700 ",25.19,22,-3.19
+3, Thaddeus Young,PF,"$5,600 ",25.72,25,-0.72
+3, Anthony Davis,PF,"$10,600 ",47.94,72.5,24.56
+3, Tiago Splitter,C,"$4,000 ",21.06,12,-9.06
+,,,Total,269.17,285.5,16.33

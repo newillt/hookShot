@@ -1,0 +1,25 @@
+### POOL OF PLAYERS ###
+PF 20
+PG 45
+SF 28
+SG 29
+C 14
+-----------------------
+Total tries:  10231200
+
+Predicted Fantasy Points:  277.175
+Predicted Fantasy Salary:  59900.0
+Probability of 280 : 37.8831153114 %
+
+Aaron Gordon
+Jared Sullinger
+Kyle Lowry
+Russell Westbrook
+Paul George
+Jae Crowder
+Will Barton
+Evan Fournier
+Kosta Koufos
+
+Started at: 2015-12-03 18:29:39.913000
+Completed in: 0:00:35.540000

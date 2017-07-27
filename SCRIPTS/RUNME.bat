@@ -1,0 +1,1 @@
+c:\anaconda\python.exe optimizeNBA.py players.xlsx > lineup.txt

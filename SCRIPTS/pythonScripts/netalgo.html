@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js">
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+        <title>NETALGO -- Web Based Model Creation</title>
+    	<meta name="keywords" content="" />
+		<meta name="description" content="" />
+<!-- 
+Nature Template 
+http://www.templatemo.com/free-website-templates/398-nature
+-->
+        <meta name="viewport" content="width=device-width">
+        
+        <!-- Google Web Font Embed -->
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,500,300,700' rel='stylesheet' type='text/css'>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo_main.css">
+    </head>
+    <body>
+        <div id="main-wrapper">
+            <!--[if lt IE 7]>
+                <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a rel="nofollow" href="http://browsehappy.com">upgrade your browser</a> or <a rel="nofollow" href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+            <![endif]-->
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 affix text-center" style="z-index: 1;">
+                <h1 class="templatemo-site-title">
+                        <a href="#">NETALGO</a><img src="images/btn-menu.png" alt="main menu" id="m-btn" class="pull-right visible-xs visible-sm"></h1>
+
+                <ul id="responsive" style="display:none" class="hidden-lg hidden-md"></ul><!-- /.responsive -->
+            </div>
+
+            <div class="menu visible-md visible-lg">
+                <ul id="menu-list">
+                    <li class="active home-menu"><a href="#home">Home</a></li>
+                    <li class="about-menu"><a href="#about">About Us</a></li>
+                    <li class="services-menu"><a href="#services">Services </a></li>
+                    <li class="testimonial-menu"><a href="#testimonial">Testimonials</a></li>
+                    <li class="contact-menu"><a href="#contact">Contact</a></li>
+                    <li><a rel="nofollow" href="http://www.facebook.com/templatemo" class="external">Fan Page</a></li>
+                </ul>
+            </div><!-- /.menu -->
+
+            <div class="image-section">
+                <div class="image-container">
+                    <img src="images/nature1.jpg" id="home-img" class="main-img inactive" alt="Home">
+                    <img src="images/nature2.jpg" id="about-img" class="inactive" alt="About">
+                    <img src="images/nature3.jpg" id="services-img"  class="inactive" alt="Services">
+                    <img src="images/nature4.jpg" id="testimonial-img" class="inactive" alt="Testimonial">
+                    <img src="images/nature5.jpg" id="contact-img" class="inactive" alt="Contact">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-6 col-md-offset-6 templatemo-content-wrapper">
+                    <div class="templatemo-content">
+                        
+                        <section id="home-text" class="active templatemo-content-section">
+                            <div class="col-sm-12 col-md-12 col-lg-12">
+                              <h2>Welcome to NETALGO</h2>
+                              <p>NETALGO is a tool that will allow you to quickly and easily create models from your data. This is a work in progress, so check back often and you will see new features being added. If you have some suggestions, please drop me a line and let me know.</p>
+                              <p>NETALGO will make Response Surface models available to everyone from finance to engineering through a simple web interface. Response Surface Models (RSM) are powerful mathematical models that can capture complex interactions. RSMs have been used in many industries for a long time, RSM functionality is available in many software packages, but the software is complex and the interaction with data is inefficient. </p>
+                            </div>
+                        </section><!-- /.home-text -->    
+
+                      <section id="about-text" class="inactive">
+                            <h2 class="text-center">About Us</h2>
+                            <div class="col-sm-6 col-md-6">
+                                <p>Nullam sit amet enim vitae magna malesuada pharetra. Etiam sodales consequat purus non vulputate. Aliquam erat volutpat. Pellentesque rutrum, ligula vel fermentum imperdiet, lectus eros volutpat urna, id mollis dolor justo vulputate justo ut sit amet ante luctus metus.</p>
+                            </div>
+                            <div class="col-sm-6 col-md-6">
+                                <p>Vestibulum sodales nulla eu tortor condimentum venenatis. In tellus ipsum, ullamcorper vitae justo sit amet, mattis consequat tortor. Suspendisse risus urna, posuere id orci ut, facilisis accumsan ipsum. Sed vehicula lacinia porta. Vivamus faucibus dui nulla, a aliquet nunc porta in.</p>
+                            </div>
+                        </section><!-- /.about-text --> 
+
+                        <section id="services-text" class="inactive">
+                          <h2 class="text-center">Services</h2>
+                          <h2></h2>
+                          
+                          <div class="col-lg-6">
+                          <h3>Update the Databases</h3>
+                          <p>this will take some time</p>
+                          <form action="repopulate.php" method="post" enctype="multipart/form-data">
+                                
+                                <input type="submit" value="Repopulate Team" name="repopulate_team">
+                                <br>
+                                <input type="submit" value="Repopulate Players" name="repopulate_players">
+                            </form>
+                          
+                           <h3>Select Player</h3>
+                              <form method="post" action="db_player.php"><p><select name=player>
+<option value='Quincy Acy'>Acy, Quincy [SAC]</option>
+<option value='Jordan Adams'>Adams, Jordan [MEM]</option>
+<option value='Steven Adams'>Adams, Steven [OKC]</option>
+<option value='Jeff Adrien'>Adrien, Jeff [NOP]</option>
+<option value='Arron Afflalo'>Afflalo, Arron [NYK]</option>
+<option value='Alexis Ajinca'>Ajinca, Alexis [NOP]</option>
+<option value='Furkan Aldemir'>Aldemir, Furkan [PHI]</option>
+<option value='Cole Aldrich'>Aldrich, Cole [LAC]</option>
+<option value='LaMarcus Aldridge'>Aldridge, LaMarcus [SAS]</option>
+<option value='Cliff Alexander'>Alexander, Cliff [POR]</option>
+<option value='Lavoy Allen'>Allen, Lavoy [IND]</option>
+<option value='Tony Allen'>Allen, Tony [MEM]</option>
+<option value='Al-Farouq Aminu'>Aminu, Al-Farouq [POR]</option>
+<option value='Lou Amundson'>Amundson, Lou [NYK]</option>
+<option value='Chris Andersen'>Andersen, Chris [MIA]</option>
+<option value='Alan Anderson'>Anderson, Alan [WAS]</option>
+<option value='Jake Anderson'>Anderson, Jake [CHI]</option>
+<option value='James Anderson'>Anderson, James [SAC]</option>
+<option value='Justin Anderson'>Anderson, Justin [DAL]</option>
+<option value='Kyle Anderson'>Anderson, Kyle [SAS]</option>
+<option value='Ryan Anderson'>Anderson, Ryan [NOP]</option>
+<option value='Giannis Antetokounmpo'>Antetokounmpo, Giannis [MIL]</option>
+<option value='Thanasis Antetokounmpo'>Antetokounmpo, Thanasis [NYK]</option>
+<option value='Carmelo Anthony'>Anthony, Carmelo [NYK]</option>
+<option value='Joel Anthony'>Anthony, Joel [DET]</option>
+<option value='Keith Appling'>Appling, Keith [ORL]</option>
+<option value='Trevor Ariza'>Ariza, Trevor [HOU]</option>
+<option value='Darrell Arthur'>Arthur, Darrell [DEN]</option>
+<option value='Brandon Ashley'>Ashley, Brandon [DAL]</option>
+<option value='Omer Asik'>Asik, Omer [NOP]</option>
+<option value='Darion Atkins'>Atkins, Darion [NYK]</option>
+<option value='D.J. Augustin'>Augustin, D.J. [OKC]</option>
+<option value=' B'>B</option>
+<option value='Chris Babb'>Babb, Chris [GSW]</option>
+<option value='Luke Babbitt'>Babbitt, Luke [NOP]</option>
+<option value='Cameron Bairstow'>Bairstow, Cameron [CHI]</option>
+<option value='Leandro Barbosa'>Barbosa, Leandro [GSW]</option>
+<option value='Jose Barea'>Barea, Jose Juan [DAL]</option>
+<option value='Andrea Bargnani'>Bargnani, Andrea [BKN]</option>
+<option value='Harrison Barnes'>Barnes, Harrison [GSW]</option>
+<option value='Matt Barnes'>Barnes, Matt [MEM]</option>
+<option value='Earl Barron'>Barron, Earl [ATL]</option>
+<option value='Will Barton'>Barton, Will [DEN]</option>
+<option value='Brandon Bass'>Bass, Brandon [LAL]</option>
+<option value='Nicolas Batum'>Batum, Nicolas [CHA]</option>
+<option value='Jerryd Bayless'>Bayless, Jerryd [MIL]</option>
+<option value='Aron Baynes'>Baynes, Aron [DET]</option>
+<option value='Kent Bazemore'>Bazemore, Kent [ATL]</option>
+<option value='Bradley Beal'>Beal, Bradley [WAS]</option>
+<option value='Marco Belinelli'>Belinelli, Marco [SAC]</option>
+<option value='Anthony Bennett'>Bennett, Anthony [TOR]</option>
+<option value='Keith Benson'>Benson, Keith [MIA]</option>
+<option value='Patrick Beverley'>Beverley, Patrick [HOU]</option>
+<option value='Bismack Biyombo'>Biyombo, Bismack [TOR]</option>
+<option value='Nemanja Bjelica'>Bjelica, Nemanja [MIN]</option>
+<option value='Tarik Black'>Black, Tarik [LAL]</option>
+<option value='DeJuan Blair'>Blair, DeJuan [WAS]</option>
+<option value='Steve Blake'>Blake, Steve [DET]</option>
+<option value='Eric Bledsoe'>Bledsoe, Eric [PHX]</option>
+<option value='Ryan Boatright'>Boatright, Ryan [BKN]</option>
+<option value='Bojan Bogdanovic'>Bogdanovic, Bojan [BKN]</option>
+<option value='Andrew Bogut'>Bogut, Andrew [GSW]</option>
+<option value='Matt Bonner'>Bonner, Matt [SAS]</option>
+<option value='Devin Booker'>Booker, Devin [PHX]</option>
+<option value='Trevor Booker'>Booker, Trevor [UTA]</option>
+<option value='Chris Bosh'>Bosh, Chris [MIA]</option>
+<option value='Avery Bradley'>Bradley, Avery [BOS]</option>
+<option value='Corey Brewer'>Brewer, Corey [HOU]</option>
+<option value='Aaron Brooks'>Brooks, Aaron [CHI]</option>
+<option value='Anthony Brown'>Brown, Anthony [LAL]</option>
+<option value='Jabari Brown'>Brown, Jabari [LAL]</option>
+<option value='Lorenzo Brown'>Brown, Lorenzo [MIN]</option>
+<option value='Markel Brown'>Brown, Markel [BKN]</option>
+<option value='Kobe Bryant'>Bryant, Kobe [LAL]</option>
+<option value='Chase Budinger'>Budinger, Chase [IND]</option>
+<option value='Reggie Bullock'>Bullock, Reggie [DET]</option>
+<option value='Trey Burke'>Burke, Trey [UTA]</option>
+<option value='Alec Burks'>Burks, Alec [UTA]</option>
+<option value='Deonte Burton'>Burton, Deonte [PHX]</option>
+<option value='Caron Butler'>Butler, Caron [SAC]</option>
+<option value='Jimmy Butler'>Butler, Jimmy [CHI]</option>
+<option value=' C'>C</option>
+<option value='Bruno Caboclo'>Caboclo, Bruno [TOR]</option>
+<option value='Jose Calderon'>Calderon, Jose [NYK]</option>
+<option value='Kentavious Caldwell-Pope'>Caldwell-Pope, Kentavious [DET]</option>
+<option value='Isaiah Canaan'>Canaan, Isaiah [PHI]</option>
+<option value='Clint Capela'>Capela, Clint [HOU]</option>
+<option value='DeMarre Carroll'>Carroll, DeMarre [TOR]</option>
+<option value='Vince Carter'>Carter, Vince [MEM]</option>
+<option value='Michael Carter-Williams'>Carter-Williams, Michael [MIL]</option>
+<option value='Kyle Casey'>Casey, Kyle [PHX]</option>
+<option value='Omri Casspi'>Casspi, Omri [SAC]</option>
+<option value='Willie Cauley-Stein'>Cauley-Stein, Willie [SAC]</option>
+<option value='Mario Chalmers'>Chalmers, Mario [MIA]</option>
+<option value='Tyson Chandler'>Chandler, Tyson [PHX]</option>
+<option value='Wilson Chandler'>Chandler, Wilson [DEN]</option>
+<option value='Rakeem Christmas'>Christmas, Rakeem [IND]</option>
+<option value='Ian Clark'>Clark, Ian [GSW]</option>
+<option value='Jordan Clarkson'>Clarkson, Jordan [LAL]</option>
+<option value='Norris Cole'>Cole, Norris [NOP]</option>
+<option value='Darren Collison'>Collison, Darren [SAC]</option>
+<option value='Nick Collison'>Collison, Nick [OKC]</option>
+<option value='Mike Conley'>Conley, Mike [MEM]</option>
+<option value='Pat Connaughton'>Connaughton, Pat [POR]</option>
+<option value='Quinn Cook'>Cook, Quinn [CLE]</option>
+<option value='Jack Cooley'>Cooley, Jack [UTA]</option>
+<option value='Chris Copeland'>Copeland, Chris [MIL]</option>
+<option value='Bryce Cotton'>Cotton, Bryce [UTA]</option>
+<option value='DeMarcus Cousins'>Cousins, DeMarcus [SAC]</option>
+<option value='Robert Covington'>Covington, Robert [PHI]</option>
+<option value='Allen Crabbe'>Crabbe, Allen [POR]</option>
+<option value='Jamal Crawford'>Crawford, Jamal [LAC]</option>
+<option value='Jordan Crawford'>Crawford, Jordan [CHI]</option>
+<option value='Jae Crowder'>Crowder, Jae [BOS]</option>
+<option value='Will Cummings'>Cummings, Will [HOU]</option>
+<option value='Dante Cunningham'>Cunningham, Dante [NOP]</option>
+<option value='Jared Cunningham'>Cunningham, Jared [CLE]</option>
+<option value='Seth Curry'>Curry, Seth [SAC]</option>
+<option value='Stephen Curry'>Curry, Stephen [GSW]</option>
+<option value=' D'>D</option>
+<option value='Samuel Dalembert'>Dalembert, Samuel [DAL]</option>
+<option value='Chris Daniels'>Daniels, Chris [BKN]</option>
+<option value='Troy Daniels'>Daniels, Troy [CHA]</option>
+<option value='Anthony Davis'>Davis, Anthony [NOP]</option>
+<option value='Ed Davis'>Davis, Ed [POR]</option>
+<option value='Branden Dawson'>Dawson, Branden [LAC]</option>
+<option value='Austin Daye'>Daye, Austin [CLE]</option>
+<option value='DeMar DeRozan'>DeRozan, DeMar [TOR]</option>
+<option value='Dewayne Dedmon'>Dedmon, Dewayne [ORL]</option>
+<option value='Bryce Dejean-Jones'>Dejean-Jones, Bryce [NOP]</option>
+<option value='Sam Dekker'>Dekker, Sam [HOU]</option>
+<option value='Matthew Dellavedova'>Dellavedova, Matthew [CLE]</option>
+<option value='Luol Deng'>Deng, Luol [MIA]</option>
+<option value='Boris Diaw'>Diaw, Boris [SAS]</option>
+<option value='Yakhouba Diawara'>Diawara, Yakhouba [MEM]</option>
+<option value='Gorgui Dieng'>Dieng, Gorgui [MIN]</option>
+<option value='Daniel Diez'>Diez, Daniel [POR]</option>
+<option value='Spencer Dinwiddie'>Dinwiddie, Spencer [DET]</option>
+<option value='Toney Douglas'>Douglas, Toney [IND]</option>
+<option value='Chris Douglas-Roberts'>Douglas-Roberts, Chris [NOP]</option>
+<option value='Goran Dragic'>Dragic, Goran [MIA]</option>
+<option value='Andre Drummond'>Drummond, Andre [DET]</option>
+<option value='Jared Dudley'>Dudley, Jared [WAS]</option>
+<option value='Duje Dukan'>Dukan, Duje [SAC]</option>
+<option value='Tim Duncan'>Duncan, Tim [SAS]</option>
+<option value='Mike Dunleavy'>Dunleavy, Mike [CHI]</option>
+<option value='Kevin Durant'>Durant, Kevin [OKC]</option>
+<option value=' E'>E</option>
+<option value='Cleanthony Early'>Early, Cleanthony [NYK]</option>
+<option value='Jarell Eddie'>Eddie, Jarell [GSW]</option>
+<option value='Nnanna Egwu'>Egwu, Nnanna [ORL]</option>
+<option value='Melvin Ejim'>Ejim, Melvin [ORL]</option>
+<option value='Wayne Ellington'>Ellington, Wayne [BKN]</option>
+<option value='Monta Ellis'>Ellis, Monta [IND]</option>
+<option value='Joel Embiid'>Embiid, Joel [PHI]</option>
+<option value='James Ennis'>Ennis, James [MIA]</option>
+<option value='Tyler Ennis'>Ennis, Tyler [MIL]</option>
+<option value='Jeremy Evans'>Evans, Jeremy [DAL]</option>
+<option value='Tyreke Evans'>Evans, Tyreke [NOP]</option>
+<option value='Dante Exum'>Exum, Dante [UTA]</option>
+<option value='Festus Ezeli'>Ezeli, Festus [GSW]</option>
+<option value=' F'>F</option>
+<option value='CJ Fair'>Fair, CJ [IND]</option>
+<option value='Jarrid Famous'>Famous, Jarrid [DAL]</option>
+<option value='Kenneth Faried'>Faried, Kenneth [DEN]</option>
+<option value='Derrick Favors'>Favors, Derrick [UTA]</option>
+<option value='Cristiano Felicio'>Felicio, Cristiano [CHI]</option>
+<option value='Raymond Felton'>Felton, Raymond [DAL]</option>
+<option value='Evan Fournier'>Fournier, Evan [ORL]</option>
+<option value='Randy Foye'>Foye, Randy [DEN]</option>
+<option value='Michael Frazier'>Frazier, Michael [LAL]</option>
+<option value='Tim Frazier'>Frazier, Tim [POR]</option>
+<option value='Jimmer Fredette'>Fredette, Jimmer [SAS]</option>
+<option value='Channing Frye'>Frye, Channing [ORL]</option>
+<option value=' G'>G</option>
+<option value='Danilo Gallinari'>Gallinari, Danilo [DEN]</option>
+<option value='Langston Galloway'>Galloway, Langston [NYK]</option>
+<option value='Kevin Garnett'>Garnett, Kevin [MIN]</option>
+<option value='Marc Gasol'>Gasol, Marc [MEM]</option>
+<option value='Pau Gasol'>Gasol, Pau [CHI]</option>
+<option value='Rudy Gay'>Gay, Rudy [SAC]</option>
+<option value='Alonzo Gee'>Gee, Alonzo [NOP]</option>
+<option value='Paul George'>George, Paul [IND]</option>
+<option value='Taj Gibson'>Gibson, Taj [CHI]</option>
+<option value='Manu Ginobili'>Ginobili, Manu [SAS]</option>
+<option value='Rudy Gobert'>Gobert, Rudy [UTA]</option>
+<option value='Drew Gooden'>Gooden, Drew [WAS]</option>
+<option value='Archie Goodwin'>Goodwin, Archie [PHX]</option>
+<option value='Aaron Gordon'>Gordon, Aaron [ORL]</option>
+<option value='Eric Gordon'>Gordon, Eric [NOP]</option>
+<option value='Marcin Gortat'>Gortat, Marcin [WAS]</option>
+<option value='Treveon Graham'>Graham, Treveon [UTA]</option>
+<option value='Danny Granger'>Granger, Danny [DET]</option>
+<option value='Jerami Grant'>Grant, Jerami [PHI]</option>
+<option value='Jerian Grant'>Grant, Jerian [NYK]</option>
+<option value='Danny Green'>Green, Danny [SAS]</option>
+<option value='Draymond Green'>Green, Draymond [GSW]</option>
+<option value='Erick Green'>Green, Erick [DEN]</option>
+<option value='Gerald Green'>Green, Gerald [MIA]</option>
+<option value='JaMychal Green'>Green, JaMychal [MEM]</option>
+<option value='Jeff Green'>Green, Jeff [MEM]</option>
+<option value='Blake Griffin'>Griffin, Blake [LAC]</option>
+<option value='Jorge Gutierrez'>Gutierrez, Jorge [MIL]</option>
+<option value=' H'>H</option>
+<option value='PJ Hairston'>Hairston, PJ [CHA]</option>
+<option value='Tyler Hansbrough'>Hansbrough, Tyler [CHA]</option>
+<option value='Tim Hardaway Jr.'>Hardaway Jr., Tim [ATL]</option>
+<option value='James Harden'>Harden, James [HOU]</option>
+<option value='Maurice Harkless'>Harkless, Maurice [POR]</option>
+<option value='Justin Harper'>Harper, Justin [BKN]</option>
+<option value='Montrezl Harrell'>Harrell, Montrezl [HOU]</option>
+<option value='Josh Harrellson'>Harrellson, Josh [WAS]</option>
+<option value='Devin Harris'>Harris, Devin [DAL]</option>
+<option value='Gary Harris'>Harris, Gary [DEN]</option>
+<option value='Joe Harris'>Harris, Joe [CLE]</option>
+<option value='Tobias Harris'>Harris, Tobias [ORL]</option>
+<option value='Aaron Harrison'>Harrison, Aaron [CHA]</option>
+<option value='Udonis Haslem'>Haslem, Udonis [MIA]</option>
+<option value='Spencer Hawes'>Hawes, Spencer [CHA]</option>
+<option value='Corey Hawkins'>Hawkins, Corey [MIA]</option>
+<option value='Charles Hayes'>Hayes, Charles [LAC]</option>
+<option value='Gordon Hayward'>Hayward, Gordon [UTA]</option>
+<option value='Gerald Henderson'>Henderson, Gerald [POR]</option>
+<option value='Marshall Henderson'>Henderson, Marshall [SAC]</option>
+<option value='John Henson'>Henson, John [MIL]</option>
+<option value='Mario Hezonja'>Hezonja, Mario [ORL]</option>
+<option value='Roy Hibbert'>Hibbert, Roy [LAL]</option>
+<option value='JJ Hickson'>Hickson, JJ [DEN]</option>
+<option value='George Hill'>Hill, George [IND]</option>
+<option value='Jordan Hill'>Hill, Jordan [IND]</option>
+<option value='Solomon Hill'>Hill, Solomon [IND]</option>
+<option value='Darrun Hilliard'>Hilliard, Darrun [DET]</option>
+<option value='Kirk Hinrich'>Hinrich, Kirk [CHI]</option>
+<option value='Jrue Holiday'>Holiday, Jrue [NOP]</option>
+<option value='Justin Holiday'>Holiday, Justin [ATL]</option>
+<option value='Ryan Hollins'>Hollins, Ryan [MEM]</option>
+<option value='Rondae Hollis-Jefferson'>Hollis-Jefferson, Rondae [BKN]</option>
+<option value='Jonathan Holmes'>Holmes, Jonathan [LAL]</option>
+<option value='Richaun Holmes'>Holmes, Richaun [PHI]</option>
+<option value='Michael Holyfield'>Holyfield, Michael [MEM]</option>
+<option value='Rodney Hood'>Hood, Rodney [UTA]</option>
+<option value='Al Horford'>Horford, Al [ATL]</option>
+<option value='Jon Horford'>Horford, Jon [MIL]</option>
+<option value='Dwight Howard'>Howard, Dwight [HOU]</option>
+<option value='Marcelo Huertas'>Huertas, Marcelo [LAL]</option>
+<option value='Josh Huestis'>Huestis, Josh [OKC]</option>
+<option value='Kris Humphries'>Humphries, Kris [WAS]</option>
+<option value='RJ Hunter'>Hunter, RJ [BOS]</option>
+<option value='Vince Hunter'>Hunter, Vince [SAC]</option>
+<option value=' I'>I</option>
+<option value='Serge Ibaka'>Ibaka, Serge [OKC]</option>
+<option value='Andre Iguodala'>Iguodala, Andre [GSW]</option>
+<option value='Ersan Ilyasova'>Ilyasova, Ersan [DET]</option>
+<option value='Joe Ingles'>Ingles, Joe [UTA]</option>
+<option value='Damien Inglis'>Inglis, Damien [MIL]</option>
+<option value='Kyrie Irving'>Irving, Kyrie [CLE]</option>
+<option value=' J'>J</option>
+<option value='Jarrett Jack'>Jack, Jarrett [BKN]</option>
+<option value='Pierre Jackson'>Jackson, Pierre [PHI]</option>
+<option value='Reggie Jackson'>Jackson, Reggie [DET]</option>
+<option value='LeBron James'>James, LeBron [CLE]</option>
+<option value='Matt Janning'>Janning, Matt [DEN]</option>
+<option value='Al Jefferson'>Jefferson, Al [CHA]</option>
+<option value='Cory Jefferson'>Jefferson, Cory [PHX]</option>
+<option value='Richard Jefferson'>Jefferson, Richard [CLE]</option>
+<option value='John Jenkins'>Jenkins, John [DAL]</option>
+<option value='Brandon Jennings'>Jennings, Brandon [DET]</option>
+<option value='Jonas Jerebko'>Jerebko, Jonas [BOS]</option>
+<option value='Grant Jerrett'>Jerrett, Grant [UTA]</option>
+<option value='Amir Johnson'>Johnson, Amir [BOS]</option>
+<option value='Chris Johnson'>Johnson, Chris [CLE]</option>
+<option value='Chris Johnson'>Johnson, Chris [UTA]</option>
+<option value='James Johnson'>Johnson, James [TOR]</option>
+<option value='Jaron Johnson'>Johnson, Jaron [WAS]</option>
+<option value='Joe Johnson'>Johnson, Joe [BKN]</option>
+<option value='Nick Johnson'>Johnson, Nick [DEN]</option>
+<option value='Stanley Johnson'>Johnson, Stanley [DET]</option>
+<option value='Tyler Johnson'>Johnson, Tyler [MIA]</option>
+<option value='Wesley Johnson'>Johnson, Wesley [LAC]</option>
+<option value='Nikola Jokic'>Jokic, Nikola [DEN]</option>
+<option value='Dahntay Jones'>Jones, Dahntay [BKN]</option>
+<option value='DeQuan Jones'>Jones, DeQuan [ATL]</option>
+<option value='James Jones'>Jones, James [CLE]</option>
+<option value='Lazeric Jones'>Jones, Lazeric [MEM]</option>
+<option value='Perry Jones'>Jones, Perry [BOS]</option>
+<option value='Terrence Jones'>Jones, Terrence [HOU]</option>
+<option value='Tyus Jones'>Jones, Tyus [MIN]</option>
+<option value='DeAndre Jordan'>Jordan, DeAndre [LAC]</option>
+<option value='Cory Joseph'>Joseph, Cory [TOR]</option>
+<option value=' K'>K</option>
+<option value='Chris Kaman'>Kaman, Chris [POR]</option>
+<option value='Frank Kaminsky'>Kaminsky, Frank [CHA]</option>
+<option value='Enes Kanter'>Kanter, Enes [OKC]</option>
+<option value='Sergey Karasev'>Karasev, Sergey [BKN]</option>
+<option value='Sasha Kaun'>Kaun, Sasha [CLE]</option>
+<option value='Arsalan Kazemi'>Kazemi, Arsalan [ATL]</option>
+<option value='Tre Kelley'>Kelley, Tre [MIA]</option>
+<option value='Ryan Kelly'>Kelly, Ryan [LAL]</option>
+<option value='Michael Kidd-Gilchrist'>Kidd-Gilchrist, Michael [CHA]</option>
+<option value='Sean Kilpatrick'>Kilpatrick, Sean [NOP]</option>
+<option value='Brandon Knight'>Knight, Brandon [PHX]</option>
+<option value='Kyle Korver'>Korver, Kyle [ATL]</option>
+<option value='Kosta Koufos'>Koufos, Kosta [SAC]</option>
+<option value='Michale Kyser'>Kyser, Michale [TOR]</option>
+<option value=' L'>L</option>
+<option value='Zach LaVine'>LaVine, Zach [MIN]</option>
+<option value='Cady Lalanne'>Lalanne, Cady [SAS]</option>
+<option value='Jeremy Lamb'>Lamb, Jeremy [CHA]</option>
+<option value='Carl Landry'>Landry, Carl [PHI]</option>
+<option value='Marcus Landry'>Landry, Marcus [MIL]</option>
+<option value='Shane Larkin'>Larkin, Shane [BKN]</option>
+<option value='Joffrey Lauvergne'>Lauvergne, Joffrey [DEN]</option>
+<option value='Ty Lawson'>Lawson, Ty [HOU]</option>
+<option value='Courtney Lee'>Lee, Courtney [MEM]</option>
+<option value='David Lee'>Lee, David [BOS]</option>
+<option value='Alex Len'>Len, Alex [PHX]</option>
+<option value='Kawhi Leonard'>Leonard, Kawhi [SAS]</option>
+<option value='Meyers Leonard'>Leonard, Meyers [POR]</option>
+<option value='Jon Leuer'>Leuer, Jon [PHX]</option>
+<option value='Damian Lillard'>Lillard, Damian [POR]</option>
+<option value='Jeremy Lin'>Lin, Jeremy [CHA]</option>
+<option value='Denzel Livingston'>Livingston, Denzel [HOU]</option>
+<option value='Shaun Livingston'>Livingston, Shaun [GSW]</option>
+<option value='Kevon Looney'>Looney, Kevon [GSW]</option>
+<option value='Brook Lopez'>Lopez, Brook [BKN]</option>
+<option value='Robin Lopez'>Lopez, Robin [NYK]</option>
+<option value='Kevin Love'>Love, Kevin [CLE]</option>
+<option value='Kyle Lowry'>Lowry, Kyle [TOR]</option>
+<option value='John Lucas III'>Lucas III, John [MIA]</option>
+<option value='Trey Lyles'>Lyles, Trey [UTA]</option>
+<option value=' M'>M</option>
+<option value='Shelvin Mack'>Mack, Shelvin [ATL]</option>
+<option value='Ian Mahinmi'>Mahinmi, Ian [IND]</option>
+<option value='Devyn Marble'>Marble, Devyn [ORL]</option>
+<option value='Boban Marjanovic'>Marjanovic, Boban [SAS]</option>
+<option value='Kendall Marshall'>Marshall, Kendall [PHI]</option>
+<option value='Cartier Martin'>Martin, Cartier [DET]</option>
+<option value='Jarell Martin'>Martin, Jarell [MEM]</option>
+<option value='Kevin Martin'>Martin, Kevin [MIN]</option>
+<option value='Wesley Matthews'>Matthews, Wesley [DAL]</option>
+<option value='O.J. Mayo'>Mayo, O.J. [MIL]</option>
+<option value='Luc Mbah a Moute'>Mbah a Moute, Luc [LAC]</option>
+<option value='James McAdoo'>McAdoo, James Michael [GSW]</option>
+<option value='Ray McCallum'>McCallum, Ray [SAS]</option>
+<option value='CJ McCollum'>McCollum, CJ [POR]</option>
+<option value='TJ McConnell'>McConnell, TJ [PHI]</option>
+<option value='Chris McCullough'>McCullough, Chris [BKN]</option>
+<option value='KJ McDaniels'>McDaniels, KJ [HOU]</option>
+<option value='Doug McDermott'>McDermott, Doug [CHI]</option>
+<option value='Mitch McGary'>McGary, Mitch [OKC]</option>
+<option value='JaVale McGee'>McGee, JaVale [DAL]</option>
+<option value='Ben McLemore'>McLemore, Ben [SAC]</option>
+<option value='Jordan McRae'>McRae, Jordan [PHI]</option>
+<option value='Josh McRoberts'>McRoberts, Josh [MIA]</option>
+<option value='Jodie Meeks'>Meeks, Jodie [DET]</option>
+<option value='Salah Mejri'>Mejri, Salah [DAL]</option>
+<option value='Jordan Mickey'>Mickey, Jordan [BOS]</option>
+<option value='Khris Middleton'>Middleton, Khris [MIL]</option>
+<option value='CJ Miles'>Miles, CJ [IND]</option>
+<option value='Andre Miller'>Miller, Andre [MIN]</option>
+<option value='Mike Miller'>Miller, Mike [DEN]</option>
+<option value='Quincy Miller'>Miller, Quincy [BKN]</option>
+<option value='Patty Mills'>Mills, Patty [SAS]</option>
+<option value='Elijah Millsap'>Millsap, Elijah [UTA]</option>
+<option value='Paul Millsap'>Millsap, Paul [ATL]</option>
+<option value='Nikola Milutinov'>Milutinov, Nikola [SAS]</option>
+<option value='Nick Minnerath'>Minnerath, Nick [CLE]</option>
+<option value='Nikola Mirotic'>Mirotic, Nikola [CHI]</option>
+<option value='Tony Mitchell'>Mitchell, Tony [GSW]</option>
+<option value='Greg Monroe'>Monroe, Greg [MIL]</option>
+<option value='Luis Montero'>Montero, Luis [POR]</option>
+<option value='E'Twaun Moore'>Moore, E'Twaun [CHI]</option>
+<option value='Eric Moreland'>Moreland, Eric [SAC]</option>
+<option value='Marcus Morris'>Morris, Marcus [DET]</option>
+<option value='Markieff Morris'>Morris, Markieff [PHX]</option>
+<option value='Anthony Morrow'>Morrow, Anthony [OKC]</option>
+<option value='Donatas Motiejunas'>Motiejunas, Donatas [HOU]</option>
+<option value='Timofey Mozgov'>Mozgov, Timofey [CLE]</option>
+<option value='Emmanuel Mudiay'>Mudiay, Emmanuel [DEN]</option>
+<option value='Shabazz Muhammad'>Muhammad, Shabazz [MIN]</option>
+<option value='Toure Murry'>Murry, Toure [WAS]</option>
+<option value='Mike Muscala'>Muscala, Mike [ATL]</option>
+<option value=' N'>N</option>
+<option value=' Nene [WAS]'>Nene [WAS]</option>
+<option value='Larry Nance Jr.'>Nance Jr., Larry [LAL]</option>
+<option value='Shabazz Napier'>Napier, Shabazz [ORL]</option>
+<option value='Maurice Ndour'>Ndour, Maurice [DAL]</option>
+<option value='Gary Neal'>Neal, Gary [WAS]</option>
+<option value='Jameer Nelson'>Nelson, Jameer [DEN]</option>
+<option value='Raul Neto'>Neto, Raul [UTA]</option>
+<option value='Andrew Nicholson'>Nicholson, Andrew [ORL]</option>
+<option value='Joakim Noah'>Noah, Joakim [CHI]</option>
+<option value='Nerlens Noel'>Noel, Nerlens [PHI]</option>
+<option value='Lucas Nogueira'>Nogueira, Lucas [TOR]</option>
+<option value='Steve Novak'>Novak, Steve [OKC]</option>
+<option value='Dirk Nowitzki'>Nowitzki, Dirk [DAL]</option>
+<option value='Jusuf Nurkic'>Nurkic, Jusuf [DEN]</option>
+<option value=' O'>O</option>
+<option value='J.J. O'Brien'>O'Brien, J.J. [UTA]</option>
+<option value='Johnny O'Bryant'>O'Bryant, Johnny [MIL]</option>
+<option value='Kyle O'Quinn'>O'Quinn, Kyle [NYK]</option>
+<option value='Jahlil Okafor'>Okafor, Jahlil [PHI]</option>
+<option value='Victor Oladipo'>Oladipo, Victor [ORL]</option>
+<option value='Kelly Olynyk'>Olynyk, Kelly [BOS]</option>
+<option value='Kelly Oubre'>Oubre, Kelly [WAS]</option>
+<option value=' P'>P</option>
+<option value='Zaza Pachulia'>Pachulia, Zaza [DAL]</option>
+<option value='Jabari Parker'>Parker, Jabari [MIL]</option>
+<option value='Tony Parker'>Parker, Tony [SAS]</option>
+<option value='Chandler Parsons'>Parsons, Chandler [DAL]</option>
+<option value='Lamar Patterson'>Patterson, Lamar [ATL]</option>
+<option value='Patrick Patterson'>Patterson, Patrick [TOR]</option>
+<option value='Chris Paul'>Paul, Chris [LAC]</option>
+<option value='Adreian Payne'>Payne, Adreian [MIN]</option>
+<option value='Cameron Payne'>Payne, Cameron [OKC]</option>
+<option value='Elfrid Payton'>Payton, Elfrid [ORL]</option>
+<option value='Oleksiy Pecherov'>Pecherov, Oleksiy [DEN]</option>
+<option value='Nikola Pekovic'>Pekovic, Nikola [MIN]</option>
+<option value='Kendrick Perkins'>Perkins, Kendrick [NOP]</option>
+<option value='Terran Petteway'>Petteway, Terran [ATL]</option>
+<option value='Paul Pierce'>Pierce, Paul [LAC]</option>
+<option value='Tibor Pleiss'>Pleiss, Tibor [UTA]</option>
+<option value='Mason Plumlee'>Plumlee, Mason [POR]</option>
+<option value='Miles Plumlee'>Plumlee, Miles [MIL]</option>
+<option value='Quincy Pondexter'>Pondexter, Quincy [NOP]</option>
+<option value='Otto Porter'>Porter, Otto [WAS]</option>
+<option value='Bobby Portis'>Portis, Bobby [CHI]</option>
+<option value='Kristaps Porzingis'>Porzingis, Kristaps [NYK]</option>
+<option value='Dwight Powell'>Powell, Dwight [DAL]</option>
+<option value='Josh Powell'>Powell, Josh [MIL]</option>
+<option value='Norman Powell'>Powell, Norman [TOR]</option>
+<option value='Phil Pressey'>Pressey, Phil [POR]</option>
+<option value='Ronnie Price'>Price, Ronnie [PHX]</option>
+<option value='Pablo Prigioni'>Prigioni, Pablo [LAC]</option>
+<option value='Tayshaun Prince'>Prince, Tayshaun [MIN]</option>
+<option value=' Q'>Q</option>
+<option value='Michael Qualls'>Qualls, Michael [OKC]</option>
+<option value=' R'>R</option>
+<option value='Julius Randle'>Randle, Julius [LAL]</option>
+<option value='Zach Randolph'>Randolph, Zach [MEM]</option>
+<option value='JJ Redick'>Redick, JJ [LAC]</option>
+<option value='Willie Reed'>Reed, Willie [BKN]</option>
+<option value='Josh Richardson'>Richardson, Josh [MIA]</option>
+<option value='Austin Rivers'>Rivers, Austin [LAC]</option>
+<option value='Andre Roberson'>Roberson, Andre [OKC]</option>
+<option value='Brian Roberts'>Roberts, Brian [CHA]</option>
+<option value='Jaleel Roberts'>Roberts, Jaleel [WAS]</option>
+<option value='Ronald Roberts'>Roberts, Ronald [TOR]</option>
+<option value='Glenn Robinson'>Robinson, Glenn [IND]</option>
+<option value='Thomas Robinson'>Robinson, Thomas [BKN]</option>
+<option value='Rajon Rondo'>Rondo, Rajon [SAC]</option>
+<option value='Derrick Rose'>Rose, Derrick [CHI]</option>
+<option value='Terrence Ross'>Ross, Terrence [TOR]</option>
+<option value='Terry Rozier'>Rozier, Terry [BOS]</option>
+<option value='Ricky Rubio'>Rubio, Ricky [MIN]</option>
+<option value='Damjan Rudez'>Rudez, Damjan [MIN]</option>
+<option value='Brandon Rush'>Rush, Brandon [GSW]</option>
+<option value='D'Angelo Russell'>Russell, D'Angelo [LAL]</option>
+<option value=' S'>S</option>
+<option value='Robert Sacre'>Sacre, Robert [LAL]</option>
+<option value='JaKarr Sampson'>Sampson, JaKarr [PHI]</option>
+<option value='Wesley Saunders'>Saunders, Wesley [NYK]</option>
+<option value='Dennis Schroder'>Schroder, Dennis [ATL]</option>
+<option value='Luis Scola'>Scola, Luis [TOR]</option>
+<option value='Mike Scott'>Scott, Mike [ATL]</option>
+<option value='Shannon Scott'>Scott, Shannon [TOR]</option>
+<option value='Thabo Sefolosha'>Sefolosha, Thabo [ATL]</option>
+<option value='Kevin Seraphin'>Seraphin, Kevin [NYK]</option>
+<option value='Ramon Sessions'>Sessions, Ramon [WAS]</option>
+<option value='Iman Shumpert'>Shumpert, Iman [CLE]</option>
+<option value='Jordan Sibert'>Sibert, Jordan [ORL]</option>
+<option value='Jonathon Simmons'>Simmons, Jonathon [SAS]</option>
+<option value='Marcus Simmons'>Simmons, Marcus [CHI]</option>
+<option value='Henry Sims'>Sims, Henry [PHX]</option>
+<option value='Satnam Singh'>Singh, Satnam [DAL]</option>
+<option value='Kyle Singler'>Singler, Kyle [OKC]</option>
+<option value='Donald Sloan'>Sloan, Donald [BKN]</option>
+<option value='Marcus Smart'>Smart, Marcus [BOS]</option>
+<option value='Ish Smith'>Smith, Ish [WAS]</option>
+<option value='J.R. Smith'>Smith, J.R. [CLE]</option>
+<option value='Jason Smith'>Smith, Jason [ORL]</option>
+<option value='Josh Smith'>Smith, Josh [LAC]</option>
+<option value='Joshua Smith'>Smith, Joshua [HOU]</option>
+<option value='Russ Smith'>Smith, Russ [MEM]</option>
+<option value='Tony Snell'>Snell, Tony [CHI]</option>
+<option value='Edgar Sosa'>Sosa, Edgar [ATL]</option>
+<option value='Marreese Speights'>Speights, Marreese [GSW]</option>
+<option value='Tiago Splitter'>Splitter, Tiago [ATL]</option>
+<option value='Juwan Staten'>Staten, Juwan [GSW]</option>
+<option value='Nik Stauskas'>Stauskas, Nik [PHI]</option>
+<option value='DJ Stephens'>Stephens, DJ [CLE]</option>
+<option value='Lance Stephenson'>Stephenson, Lance [LAC]</option>
+<option value='Greg Stiemsma'>Stiemsma, Greg [ORL]</option>
+<option value='David Stockton'>Stockton, David [SAC]</option>
+<option value='Jarnell Stokes'>Stokes, Jarnell [MEM]</option>
+<option value='Julyan Stone'>Stone, Julyan [OKC]</option>
+<option value='Amar'e Stoudemire'>Stoudemire, Amar'e [MIA]</option>
+<option value='Rodney Stuckey'>Stuckey, Rodney [IND]</option>
+<option value='Jared Sullinger'>Sullinger, Jared [BOS]</option>
+<option value='DaJuan Summers'>Summers, DaJuan [NYK]</option>
+<option value='Devin Sweetney'>Sweetney, Devin [DEN]</option>
+<option value=' T'>T</option>
+<option value='Walter Tavares'>Tavares, Walter [ATL]</option>
+<option value='Jeff Teague'>Teague, Jeff [ATL]</option>
+<option value='Mirza Teletovic'>Teletovic, Mirza [PHX]</option>
+<option value='Garrett Temple'>Temple, Garrett [WAS]</option>
+<option value='Jason Terry'>Terry, Jason [HOU]</option>
+<option value='Adonis Thomas'>Thomas, Adonis [DET]</option>
+<option value='Isaiah Thomas'>Thomas, Isaiah [BOS]</option>
+<option value='Lance Thomas'>Thomas, Lance [NYK]</option>
+<option value='Hollis Thompson'>Thompson, Hollis [PHI]</option>
+<option value='Jason Thompson'>Thompson, Jason [GSW]</option>
+<option value='Klay Thompson'>Thompson, Klay [GSW]</option>
+<option value='Sam Thompson'>Thompson, Sam [CHA]</option>
+<option value='Tristan Thompson'>Thompson, Tristan [CLE]</option>
+<option value='Marcus Thornton'>Thornton, Marcus [HOU]</option>
+<option value='JP Tokoto'>Tokoto, JP [PHI]</option>
+<option value='Anthony Tolliver'>Tolliver, Anthony [DET]</option>
+<option value='Karl-Anthony Towns'>Towns, Karl-Anthony [MIN]</option>
+<option value='Travis Trice'>Trice, Travis [NYK]</option>
+<option value='Nikoloz Tskitishvili'>Tskitishvili, Nikoloz [LAC]</option>
+<option value='PJ Tucker'>Tucker, PJ [PHX]</option>
+<option value='Evan Turner'>Turner, Evan [BOS]</option>
+<option value='Myles Turner'>Turner, Myles [IND]</option>
+<option value='Jeremy Tyler'>Tyler, Jeremy [HOU]</option>
+<option value=' U'>U</option>
+<option value='Beno Udrih'>Udrih, Beno [MEM]</option>
+<option value='Robert Upshaw'>Upshaw, Robert [LAL]</option>
+<option value=' V'>V</option>
+<option value='Jonas Valanciunas'>Valanciunas, Jonas [TOR]</option>
+<option value='Anderson Varejao'>Varejao, Anderson [CLE]</option>
+<option value='Greivis Vasquez'>Vasquez, Greivis [MIL]</option>
+<option value='Rashad Vaughn'>Vaughn, Rashad [MIL]</option>
+<option value='Charlie Villanueva'>Villanueva, Charlie [DAL]</option>
+<option value='Noah Vonleh'>Vonleh, Noah [POR]</option>
+<option value='Nikola Vucevic'>Vucevic, Nikola [ORL]</option>
+<option value='Sasha Vujacic'>Vujacic, Sasha [NYK]</option>
+<option value=' W'>W</option>
+<option value='Dwyane Wade'>Wade, Dwyane [MIA]</option>
+<option value='Dion Waiters'>Waiters, Dion [OKC]</option>
+<option value='Chris Walker'>Walker, Chris [HOU]</option>
+<option value='Kemba Walker'>Walker, Kemba [CHA]</option>
+<option value='John Wall'>Wall, John [WAS]</option>
+<option value='TJ Warren'>Warren, TJ [PHX]</option>
+<option value='Jason Washburn'>Washburn, Jason [CHA]</option>
+<option value='CJ Watson'>Watson, CJ [ORL]</option>
+<option value='Corey Webster'>Webster, Corey [NOP]</option>
+<option value='Martell Webster'>Webster, Martell [WAS]</option>
+<option value='Sonny Weems'>Weems, Sonny [PHX]</option>
+<option value='Dez Wells'>Wells, Dez [OKC]</option>
+<option value='David West'>West, David [SAS]</option>
+<option value='Charlie Westbrook'>Westbrook, Charlie [MIL]</option>
+<option value='Russell Westbrook'>Westbrook, Russell [OKC]</option>
+<option value='Terrico White'>White, Terrico [PHX]</option>
+<option value='Hassan Whiteside'>Whiteside, Hassan [MIA]</option>
+<option value='Greg Whittington'>Whittington, Greg [MIA]</option>
+<option value='Shayne Whittington'>Whittington, Shayne [IND]</option>
+<option value='Andrew Wiggins'>Wiggins, Andrew [MIN]</option>
+<option value='Scottie Wilbekin'>Wilbekin, Scottie [PHI]</option>
+<option value='CJ Wilcox'>Wilcox, CJ [LAC]</option>
+<option value='Deron Williams'>Williams, Deron [DAL]</option>
+<option value='Derrick Williams'>Williams, Derrick [NYK]</option>
+<option value='Elliot Williams'>Williams, Elliot [CHA]</option>
+<option value='Lou Williams'>Williams, Lou [LAL]</option>
+<option value='Marvin Williams'>Williams, Marvin [CHA]</option>
+<option value='Mo Williams'>Williams, Mo [CLE]</option>
+<option value='Reggie Williams'>Williams, Reggie [SAS]</option>
+<option value='Jamil Wilson'>Wilson, Jamil [DAL]</option>
+<option value='Justise Winslow'>Winslow, Justise [MIA]</option>
+<option value='Jeff Withey'>Withey, Jeff [UTA]</option>
+<option value='Christian Wood'>Wood, Christian [PHI]</option>
+<option value='Metta World Peace'>World Peace, Metta [LAL]</option>
+<option value='Brandan Wright'>Wright, Brandan [MEM]</option>
+<option value='Delon Wright'>Wright, Delon [TOR]</option>
+<option value='Tony Wroten'>Wroten, Tony [PHI]</option>
+<option value=' Y'>Y</option>
+<option value='James Young'>Young, James [BOS]</option>
+<option value='Joe Young'>Young, Joe [IND]</option>
+<option value='Nick Young'>Young, Nick [LAL]</option>
+<option value='Thaddeus Young'>Young, Thaddeus [BKN]</option>
+<option value=' Z'>Z</option>
+<option value='Talib Zanna'>Zanna, Talib [OKC]</option>
+<option value='Cody Zeller'>Zeller, Cody [CHA]</option>
+<option value='Tyler Zeller'>Zeller, Tyler [BOS]</option>
+
+
+
+                                </select>
+                                </p>
+                                  <input type="submit" value="Select the Player"/>
+									</form>
+                               <h3>Select Team</h3>
+                              <form method="post" action="db2.php"><p>
+                              <select name="team">
+<option value="ATL">ATL</option>
+<option value="BOS">BOS</option>
+<option value="NJN">NJN</option>
+<option value="CHA">CHA</option>
+<option value="CHI">CHI</option>
+<option value="CLE">CLE</option>
+<option value="DAL">DAL</option>
+<option value="DEN">DEN</option>
+<option value="DET">DET</option>
+<option value="GSW">GSW</option>
+<option value="HOU">HOU</option>
+<option value="IND">IND</option>
+<option value="LAC">LAC</option>
+<option value="LAL">LAL</option>
+<option value="MEM">MEM</option>
+<option value="MIA">MIA</option>
+<option value="MIL">MIL</option>
+<option value="MIN">MIN</option>
+<option value="NOH">NOH</option>
+<option value="NYK">NYK</option>
+<option value="OKC">OKC</option>
+<option value="ORL">ORL</option>
+<option value="PHI">PHI</option>
+<option value="PHO">PHO</option>
+<option value="POR">POR</option>
+<option value="SAC">SAC</option>
+<option value="SAS">SAS</option>
+<option value="TOR">TOR</option>
+<option value="UTA">UTA</option>
+<option value="WAS">WAS</option>
+
+                               </select>
+                               </p>
+                                  <input type="submit" value="Select the Team" align="middle"/>
+									</form>
+                                    
+                              <h3>Select Date</h3>
+                              <form method="post" action="db_date.php"><p>
+                              <select name="date">
+<option value="2014-10-29">2014-10-29</option>
+<option value="2014-10-30">2014-10-30</option>
+<option value="2014-10-31">2014-10-31</option>
+<option value="2014-11-01">2014-11-01</option>
+<option value="2014-11-02">2014-11-02</option>
+<option value="2014-11-03">2014-11-03</option>
+<option value="2014-11-04">2014-11-04</option>
+<option value="2014-11-05">2014-11-05</option>
+<option value="2014-11-06">2014-11-06</option>
+<option value="2014-11-07">2014-11-07</option>
+<option value="2014-11-08">2014-11-08</option>
+<option value="2014-11-09">2014-11-09</option>
+<option value="2014-11-10">2014-11-10</option>
+<option value="2014-11-11">2014-11-11</option>
+<option value="2014-11-12">2014-11-12</option>
+<option value="2014-11-13">2014-11-13</option>
+<option value="2014-11-14">2014-11-14</option>
+<option value="2014-11-15">2014-11-15</option>
+<option value="2014-11-16">2014-11-16</option>
+<option value="2014-11-17">2014-11-17</option>
+<option value="2014-11-18">2014-11-18</option>
+<option value="2014-11-19">2014-11-19</option>
+<option value="2014-11-20">2014-11-20</option>
+<option value="2014-11-21">2014-11-21</option>
+<option value="2014-11-22">2014-11-22</option>
+<option value="2014-11-23">2014-11-23</option>
+<option value="2014-11-24">2014-11-24</option>
+<option value="2014-11-25">2014-11-25</option>
+<option value="2014-11-26">2014-11-26</option>
+<option value="2014-11-27">2014-11-27</option>
+<option value="2014-11-28">2014-11-28</option>
+<option value="2014-11-29">2014-11-29</option>
+<option value="2014-11-30">2014-11-30</option>
+<option value="2014-12-01">2014-12-01</option>
+<option value="2014-12-02">2014-12-02</option>
+<option value="2014-12-03">2014-12-03</option>
+<option value="2014-12-04">2014-12-04</option>
+<option value="2014-12-05">2014-12-05</option>
+<option value="2014-12-06">2014-12-06</option>
+<option value="2014-12-07">2014-12-07</option>
+<option value="2014-12-08">2014-12-08</option>
+<option value="2014-12-09">2014-12-09</option>
+<option value="2014-12-10">2014-12-10</option>
+<option value="2014-12-11">2014-12-11</option>
+<option value="2014-12-12">2014-12-12</option>
+<option value="2014-12-13">2014-12-13</option>
+<option value="2014-12-14">2014-12-14</option>
+<option value="2014-12-15">2014-12-15</option>
+<option value="2014-12-16">2014-12-16</option>
+<option value="2014-12-17">2014-12-17</option>
+<option value="2014-12-18">2014-12-18</option>
+<option value="2014-12-19">2014-12-19</option>
+<option value="2014-12-20">2014-12-20</option>
+<option value="2014-12-21">2014-12-21</option>
+<option value="2014-12-22">2014-12-22</option>
+<option value="2014-12-23">2014-12-23</option>
+<option value="2014-12-24">2014-12-24</option>
+<option value="2014-12-25">2014-12-25</option>
+<option value="2014-12-26">2014-12-26</option>
+<option value="2014-12-27">2014-12-27</option>
+<option value="2014-12-28">2014-12-28</option>
+<option value="2014-12-29">2014-12-29</option>
+<option value="2014-12-30">2014-12-30</option>
+<option value="2014-12-31">2014-12-31</option>
+<option value="2015-01-01">2015-01-01</option>
+<option value="2015-01-02">2015-01-02</option>
+<option value="2015-01-03">2015-01-03</option>
+<option value="2015-01-04">2015-01-04</option>
+<option value="2015-01-05">2015-01-05</option>
+<option value="2015-01-06">2015-01-06</option>
+<option value="2015-01-07">2015-01-07</option>
+<option value="2015-01-08">2015-01-08</option>
+<option value="2015-01-09">2015-01-09</option>
+<option value="2015-01-10">2015-01-10</option>
+<option value="2015-01-11">2015-01-11</option>
+<option value="2015-01-12">2015-01-12</option>
+<option value="2015-01-13">2015-01-13</option>
+<option value="2015-01-14">2015-01-14</option>
+<option value="2015-01-15">2015-01-15</option>
+<option value="2015-01-16">2015-01-16</option>
+<option value="2015-01-17">2015-01-17</option>
+<option value="2015-01-18">2015-01-18</option>
+<option value="2015-01-19">2015-01-19</option>
+<option value="2015-01-20">2015-01-20</option>
+<option value="2015-01-21">2015-01-21</option>
+<option value="2015-01-22">2015-01-22</option>
+<option value="2015-01-23">2015-01-23</option>
+<option value="2015-01-24">2015-01-24</option>
+<option value="2015-01-25">2015-01-25</option>
+<option value="2015-01-26">2015-01-26</option>
+<option value="2015-01-27">2015-01-27</option>
+<option value="2015-01-28">2015-01-28</option>
+<option value="2015-01-29">2015-01-29</option>
+<option value="2015-01-30">2015-01-30</option>
+<option value="2015-01-31">2015-01-31</option>
+<option value="2015-02-01">2015-02-01</option>
+<option value="2015-02-02">2015-02-02</option>
+<option value="2015-02-03">2015-02-03</option>
+<option value="2015-02-04">2015-02-04</option>
+<option value="2015-02-05">2015-02-05</option>
+<option value="2015-02-06">2015-02-06</option>
+<option value="2015-02-07">2015-02-07</option>
+<option value="2015-02-08">2015-02-08</option>
+<option value="2015-02-09">2015-02-09</option>
+<option value="2015-02-10">2015-02-10</option>
+<option value="2015-02-11">2015-02-11</option>
+<option value="2015-02-12">2015-02-12</option>
+<option value="2015-02-13">2015-02-13</option>
+<option value="2015-02-14">2015-02-14</option>
+<option value="2015-02-15">2015-02-15</option>
+<option value="2015-02-16">2015-02-16</option>
+<option value="2015-02-17">2015-02-17</option>
+<option value="2015-02-18">2015-02-18</option>
+<option value="2015-02-19">2015-02-19</option>
+<option value="2015-02-20">2015-02-20</option>
+<option value="2015-02-21">2015-02-21</option>
+<option value="2015-02-22">2015-02-22</option>
+<option value="2015-02-23">2015-02-23</option>
+<option value="2015-02-24">2015-02-24</option>
+<option value="2015-02-25">2015-02-25</option>
+<option value="2015-02-26">2015-02-26</option>
+<option value="2015-02-27">2015-02-27</option>
+<option value="2015-02-28">2015-02-28</option>
+<option value="2015-03-01">2015-03-01</option>
+<option value="2015-03-02">2015-03-02</option>
+<option value="2015-03-03">2015-03-03</option>
+<option value="2015-03-04">2015-03-04</option>
+<option value="2015-03-05">2015-03-05</option>
+<option value="2015-03-06">2015-03-06</option>
+<option value="2015-03-07">2015-03-07</option>
+<option value="2015-03-08">2015-03-08</option>
+<option value="2015-03-09">2015-03-09</option>
+<option value="2015-03-10">2015-03-10</option>
+<option value="2015-03-11">2015-03-11</option>
+<option value="2015-03-12">2015-03-12</option>
+<option value="2015-03-13">2015-03-13</option>
+<option value="2015-03-14">2015-03-14</option>
+<option value="2015-03-15">2015-03-15</option>
+<option value="2015-03-16">2015-03-16</option>
+<option value="2015-03-17">2015-03-17</option>
+<option value="2015-03-18">2015-03-18</option>
+<option value="2015-03-19">2015-03-19</option>
+<option value="2015-03-20">2015-03-20</option>
+<option value="2015-03-21">2015-03-21</option>
+<option value="2015-03-22">2015-03-22</option>
+<option value="2015-03-23">2015-03-23</option>
+<option value="2015-03-24">2015-03-24</option>
+<option value="2015-03-25">2015-03-25</option>
+<option value="2015-03-26">2015-03-26</option>
+<option value="2015-03-27">2015-03-27</option>
+<option value="2015-03-28">2015-03-28</option>
+<option value="2015-03-29">2015-03-29</option>
+<option value="2015-03-30">2015-03-30</option>
+<option value="2015-03-31">2015-03-31</option>
+<option value="2015-04-01">2015-04-01</option>
+<option value="2015-04-02">2015-04-02</option>
+<option value="2015-04-03">2015-04-03</option>
+<option value="2015-04-04">2015-04-04</option>
+<option value="2015-04-05">2015-04-05</option>
+<option value="2015-04-06">2015-04-06</option>
+<option value="2015-04-07">2015-04-07</option>
+<option value="2015-04-08">2015-04-08</option>
+<option value="2015-04-09">2015-04-09</option>
+<option value="2015-04-10">2015-04-10</option>
+<option value="2015-04-11">2015-04-11</option>
+<option value="2015-04-12">2015-04-12</option>
+<option value="2015-04-13">2015-04-13</option>
+<option value="2015-04-14">2015-04-14</option>
+
+                                                    
+                               </select>
+                               </p>
+                               <input type="submit" value="Select the Date" align="middle"/>
+								</form>
+                                    
+                          </div>
+                          
+                          
+                          
+                            <div class="col-sm-4 col-md-4 col-lg-6">
+                               <h3>Upload Files</h3>
+                            
+                            <form action="getfile.php" method="post" enctype="multipart/form-data">
+                                Select image to upload:
+                                <input type="file" name="fileToUpload" id="fileToUpload">
+                                <br>
+                                <input type="submit" value="Upload file" name="submit">
+                                <br>
+                            </form>
+                            <p>&nbsp;</p>
+                            <p>Here you can upload your data. Make sure that the file is formatted for Optimus...</p>
+							<br>
+                            <h3>Create Models</h3>
+                            <p>
+                            <form action="getfile.php" method="post" enctype="multipart/form-data">
+                                <input type="submit" value="Generate Model" name="submit">
+                                <iframe style="display:none;" name="target"></iframe>
+                                
+                            </form>
+                            </p>
+                            <p>&nbsp;</p>
+                            <p>When you press this button Optimus will be run on the data that you just uploaded</p>
+                            </div>
+
+                        </section>
+                        <!-- /.services-text --> 
+
+                        <section id="testimonial-text" class="inactive">
+                            <div class="col-sm-12 col-md-12">
+                                <h2>Testimonials</h2>
+                                <p>Aenean quis semper metus. Maecenas adipiscing, leo a facilisis tempor, mi quam feugiat eros, ullamcorper porttitor elit turpis ac risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Suspendisse non sem a leo mattis dapibus. Duis vel ornare arcu. Quisque at malesuada tortor.</p>
+                                <p>Quisque non tempus lacus, non placerat arcu. Donec nibh ipsum, pharetra nec pellentesque at, mattis ut lorem. Fusce dapibus tristique neque, eget ultricies lorem tincidunt vitae. Aliquam erat volutpat. Integer vulputate ultricies nisl, sed vehicula justo accumsan non.</p>
+                            </div>
+                      </section><!-- /.testimonial-text --> 
+
+                        <section id="contact-text" class="inactive">
+                            <div class="col-sm-12 col-md-12">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12"><h2>Contact</h2></div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-6">
+                                        <div id="map-canvas"></div>
+                                        <p>35 East Main St, Carmel, IN 46032</p>
+                                    </div>
+
+                                    <div class="col-sm-6 col-md-6">
+                                        <form action="#" method="post">
+
+                                                <div class="form-group">
+                                                    <!--<label for="contact_name">Name:</label>-->
+                                                    <input type="text" id="contact_name" class="form-control" placeholder="Name" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <!--<label for="contact_email">Email:</label>-->
+                                                    <input type="text" id="contact_email" class="form-control" placeholder="Email Address" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <!--<label for="contact_message">Message:</label>-->
+                                                    <textarea id="contact_message" class="form-control" rows="9" placeholder="Write a message"></textarea>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary">Send</button>
+
+                                        </form>
+                                    </div>
+                                    
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </section><!-- /.contact-text --> 
+                    </div><!-- /.templatemo-content -->  
+                </div><!-- /.templatemo-content-wrapper --> 
+            </div><!-- /.row --> 
+
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+                  <p class="footer-text"> <span>Copyright &copy; 2015 NETALGO LLC</span></p>
+                </div><!-- /.footer --> 
+            </div>
+
+	</div><!-- /#main-wrapper -->
+        
+        <div id="preloader">
+            <div id="status">&nbsp;</div>
+        </div><!-- /#preloader -->
+        
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.backstretch.min.js"></script>
+        <script src="js/templatemo_script.js"></script>
+        <!-- templatemo 398 nature -->
+    </body>
+</html>

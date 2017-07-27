@@ -1,0 +1,35 @@
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+1, Russell Westbrook,PG,"$10,900 ",52.2,48.7,-3.5
+1, Ricky Rubio,PG,"$7,500 ",33,,-33
+1, DeMar DeRozan,SG,"$7,600 ",33.3,39,5.7
+1, Jeremy Lamb,SG,"$4,100 ",19.68,23.8,4.12
+1, Gordon Hayward,SF,"$6,600 ",33.84,27.6,-6.24
+1, Nemanja Bjelica,SF,"$4,000 ",27.81,28.4,0.59
+1, Julius Randle,PF,"$5,900 ",35.65,19.4,-16.25
+1, Jared Sullinger,PF,"$5,200 ",25.5,31.5,6
+1, Hassan Whiteside,C,"$8,000 ",37.82,43,5.18
+,,,Total,301.72,261.4,-40.32
+,,,,,,
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+2,Russell Westbrook,PG,"$10,900 ",52.2,48.7,-3.5
+2, Ricky Rubio,PG,"$7,500 ",33,,-33
+2, Dwyane Wade,SG,"$7,000 ",29.87,24.4,-5.47
+2, DeMar DeRozan,SG,"$7,600 ",33.3,39,5.7
+2, Gordon Hayward,SF,"$6,600 ",33.84,27.6,-6.24
+2, Nemanja Bjelica,SF,"$4,000 ",27.81,28.4,0.59
+2, Julius Randle,PF,"$5,900 ",35.65,19.4,-16.25
+2, Jared Sullinger,PF,"$5,200 ",25.5,31.5,6
+2, Roy Hibbert,C,"$5,400 ",27.3,12.9,-14.4
+,,,Total,301.39,231.9,-69.49
+,,,,,,
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+3,Jeremy Lin,PG,"$4,700 ",22.36,24.7,2.34
+3, Ricky Rubio,PG,"$7,500 ",33,0,-33
+3, Dwyane Wade,SG,"$7,000 ",29.87,24.4,-5.47
+3, Jeremy Lamb,SG,"$4,100 ",19.68,23.8,4.12
+3, Kevin Durant,SF,"$10,400 ",42.84,30,-12.84
+3, Khris Middleton,SF,"$5,800 ",26.4,19.4,-7
+3, Serge Ibaka,PF,"$6,900 ",29.92,32.7,2.78
+3, Jared Sullinger,PF,"$5,200 ",25.5,31.5,6
+3, Hassan Whiteside,C,"$8,000 ",37.82,43,5.18
+,,,Total,267.34,229.5,-37.84

@@ -1,0 +1,35 @@
+### POOL OF PLAYERS ###
+PF 34
+PG 48
+SF 27
+SG 31
+C 12
+-----------------------
+Total tries:  16391808
+
+Predicted Fantasy Points:  275.625
+Predicted Fantasy Salary:  59900.0
+Probability of 280 : 30.8570546118 %
+
+Blake Griffin 39
+Dwight Powell 18.1
+Stephen Curry 46.3
+Damian Lillard 43
+Thabo Sefolosha 38.9
+Jae Crowder 12.6
+Will Barton 2.6
+C.J. McCollum 28.4
+Andrew Bogut 23.4
+
+Blake Griffin
+Dwight Powell
+Stephen Curry
+Damian Lillard
+Thabo Sefolosha
+Jae Crowder
+Will Barton
+C.J. McCollum
+Andrew Bogut
+
+Started at: 2015-11-24 19:01:09.250000
+Completed in: 0:01:01.575000

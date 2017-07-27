@@ -1,0 +1,35 @@
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+1,George Hill,PG,"$6,300 ",33.33,27.5,-5.83
+1, Russell Westbrook,PG,"$10,800 ",50.75,53.7,2.95
+1, Monta Ellis,SG,"$6,200 ",29.04,37.5,8.46
+1, Dwyane Wade,SG,"$7,000 ",32.96,19.6,-13.36
+1, LeBron James,SF,"$10,300 ",43.92,40.2,-3.72
+1, T.J. Warren,SF,"$3,700 ",17.42,17.4,-0.02
+1, Julius Randle,PF,"$5,900 ",33.35,23.7,-9.65
+1, Ed Davis,PF,"$4,800 ",23.75,13.7,-10.05
+1, Roy Hibbert,C,"$5,000 ",27.3,37,9.7
+,,,Total,291.82,270.3,-21.52
+,,,,,,
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+2, George Hill,PG,"$6,300 ",33.33,27.5,-5.83
+2, Russell Westbrook,PG,"$10,800 ",50.75,53.7,2.95
+2, Monta Ellis,SG,"$6,200 ",29.04,37.5,8.46
+2, Dwyane Wade,SG,"$7,000 ",32.96,19.6,-13.36
+2, Luol Deng,SF,"$5,000 ",22.32,15.5,-6.82
+2, Kevin Durant,SF,"$10,100 ",42.84,55.2,12.36
+2, Brandon Bass,PF,"$3,500 ",18.63,0,-18.63
+2, Julius Randle,PF,"$5,900 ",33.35,23.7,-9.65
+2, Roy Hibbert,C,"$5,000 ",27.3,37,9.7
+,,,Total,290.52,269.7,-20.82
+,,,,,,
+option,playerName,fd_position,fd_salary,projected_fdfp,Actual,Difference
+3, Goran Dragic,PG,"$6,100 ",29.16,6.9,-22.26
+3, Brandon Knight,PG,"$7,000 ",32.2,14.3,-17.9
+3, Gerald Green,SG,"$3,600 ",18.06,0,-18.06
+3, Eric Bledsoe,SG,"$8,000 ",33.6,44.9,11.3
+3, LeBron James,SF,"$10,300 ",43.92,40.2,-3.72
+3, Kevin Durant,SF,"$10,100 ",42.84,55.2,12.36
+3, Amar'e Stoudemire,PF,"$3,900 ",20.16,0,-20.16
+3, Markieff Morris,PF,"$5,800 ",28.16,24,-4.16
+3, Roy Hibbert,C,"$5,000 ",27.3,37,9.7
+,,,Total,275.4,222.5,-52.9

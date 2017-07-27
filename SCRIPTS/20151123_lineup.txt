@@ -1,0 +1,25 @@
+### POOL OF PLAYERS ###
+PF 30
+PG 35
+SF 29
+SG 25
+C 10
+-----------------------
+Total tries:  7612500
+
+Predicted Fantasy Points:  281.51
+Predicted Fantasy Salary:  59900.0
+Probability of 280 : 56.8676696561 %
+
+Aaron Gordon
+Marvin Williams
+Russell Westbrook
+Jerryd Bayless
+Omri Casspi
+LeBron James
+Evan Fournier
+Manu Ginobili
+Andre Drummond
+
+Started at: 2015-11-23 18:09:57.031000
+Completed in: 0:00:20.516000

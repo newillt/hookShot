@@ -1,0 +1,25 @@
+### POOL OF PLAYERS ###
+PF 27
+PG 51
+SF 49
+SG 42
+C 12
+-----------------------
+Total tries:  34006392
+
+Predicted Fantasy Points:  286.75
+Predicted Fantasy Salary:  59800.0
+Probability of 280 : 77.061651299 %
+
+Blake Griffin
+Joffrey Lauvergne
+Jerryd Bayless
+Russell Westbrook
+Jae Crowder
+Omri Casspi
+Giannis Antetokounmpo
+Will Barton
+Andre Drummond
+
+Started at: 2015-11-28 06:50:44.950000
+Completed in: 0:01:45.610000

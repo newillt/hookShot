@@ -1,0 +1,25 @@
+### POOL OF PLAYERS ###
+PF 46
+PG 53
+SF 43
+SG 52
+C 13
+-----------------------
+Total tries:  70867784
+
+Predicted Fantasy Points:  282.29
+Predicted Fantasy Salary:  59900.0
+Probability of 280 : 59.2665356521 %
+
+Marvin Williams
+Thaddeus Young
+Russell Westbrook
+Rajon Rondo
+Thabo Sefolosha
+Jae Crowder
+Marcus Thornton
+Evan Fournier
+Andre Drummond
+
+Started at: 2015-11-25 15:45:42.923000
+Completed in: 0:02:03.785000
